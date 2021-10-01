@@ -1,0 +1,24 @@
+,PRODUCT_NAME,MEDIUM,CATEGORY,CATEGORY_DETAILS,TARIFF_ID.hash,TARIFF_NAME,TARIFF_DESC
+0,AB_Copper Access Bearer,MC,Double Play,VB,233d73b48e58f468c7ba79c07a84cbca,AB_Copper Access Bearer,AB_Copper Access Bearer
+1,V_SLT Voice Service,MC,Double Play,VB,8bb2c536d0fb580ce30b60ca38f773dd,z Sales End_.Office - Double Play,Office - Double Play
+2,E_SLT PeoTV Service,MC,Double Play,VP,2a1d34135c9e8ef1c6f8d5078c51712a,Cu_Peo Silver,Cu_Peo Silver
+3,V_E-channeling Registration,C,Single Play-Voice,V,c7ca76a7d3fb6b5b78b4106b70b2fc03,V_E-Channeling Registration,V_E-Channeling Registration
+4,V_Sisu Connect,MC,Single Play-Voice,V,2145031a345440c221d8992954a841db,Charge,Charge
+5,V-Basic1_TeleLife,C,Double Play,VB,b1134631cfcd61e4c42f25102802c8f6,Basic 1 Monthly premium,Basic 1 Monthly premium
+6,V_Telehealth,C,Single Play-Voice,V,fe7088dd28583261efde5b7ff7c9d422,Megaline-Pri+Spous_Silver,MegaLine- Subscriber+Spouse_Silver
+7,V-Plus1_TeleLife,C,Single Play-Voice,V,cd42a075f19bf80f59b7d826c6c2d43d,Plus 1 Monthly premium,Plus 1 Monthly premium
+8,V_E-channeling Subscription,C,,,c2d523e62edb799b473d282f848e2076,V_E-Channeling Reservation,V_E-Channeling Reservation
+9,,,,,d41d8cd98f00b204e9800998ecf8427e,,
+10,V-Plus4_TeleLife,MC,Single Play-Voice,V,f1fe81fa0a090bb5339e0bc688966e9b,Plus 4 Monthly premium,Plus 4 Monthly premium
+11,OTT_SLT PeoTV Go,C,Double Play,VB,b7e06877d36a4adf8619d79a01233983,Peo TV GO ,Peo TV GO 
+12,V-Basic2_TeleLife,C,Triple Play,VBP,67ba8120f499c6706644ce234fc5ee1c,Basic 2 Monthly premium,Basic 2 Monthly premium
+13,V-Basic4_TeleLife,C,Triple Play,VBP,b89f2e9bda166c97fa4afe09d24caba8,Basic 4 Monthly premium,Basic 4 Monthly premium
+14,BB_PeoTVGO,MC,Triple Play,VBP,b70f3694fb81b9a36d7584574de5c73e,BB PeoTVGO_Charge,BB PeoTVGO_Charge
+15,BB_Personal Storage,MC,Triple Play,VBP,1f7c4386bf2c9ff0400445c9e27a1594,BB Storage_Charge,BB Storage_Charge
+16,BB_SLT BroadBand Service,MC,Triple Play,VBP,8a618b8f8f01a09230853dbe6f581c27,FTTH Web Family Plus,FTTH_WEB FAMILY
+17,BB_Extra GB,MC,Triple Play,VBP,8e3a470dfb7d426c470e8e9bdf44df13,Extra GB,Extra GB
+18,BB_Detailed Reports ,MC,Double Play,VB,800f569916f0f5c1e487a9b5e976bdc4,BB_Report Subscription Charge,BB_Report Subscription Charge
+19,BB_ Entertainment Unlimited,MC,Triple Play,VBP,59b8a68f5518805ff14961c896caddae,FTTH_Combo Pack Subscription,FTTH_Combo Pack Subscription
+20,BB_SLT Film Hall Service,MC,Triple Play,VBP,71bfbe458113bbc3b27576494be78972,BB SLT Film Hall Subscription_Charge,BB SLT Film Hall Subscription_Charge
+21,AB_Fiber Access Bearer,MC,,,f5e0906e0da1a657230cf930de854408,Access_Charge,Access_Charge
+22,AB_WireLess Access,MC,Double Play,VB,99e9ed2e0253ae5f4b421592cf6ca2de,Access_Charge,Access_Charge

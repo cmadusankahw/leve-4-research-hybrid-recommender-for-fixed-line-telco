@@ -1,0 +1,886 @@
+Product_ID,Base_Type,Pricing_Type,Package_Type,VAS,Title,Description,BB_Data_Standard,BB_Data_Free,BB_Data_Anytime,BB_Data_Unlimited,BB_Connection_Type,BB_Connection_Speed,Included_Packages,Price,Monthly_Rental,VOICE_Home_SLT_Instrument_Rental,VOICE_Home_Customer_Instrument_Rental,VOICE_Charge_Active_Hours,VOICE_Charge_Leisure_Hours,VOICE_Free_Minutes,VOICE_Telehelth_Insurance_Benefits,VOICE_Tele_Life_Insurance_Benefits,PEOTV_No_of_Channels,PEOTV_Foreign_Channels,PEOTV_Local_Channels,PEOTV_Movie_Channels,PEOTV_Kids_Channels,PEOTV_Religious_Channels,PEOTV_Tamil_Channels,PEOTV_Educational_Channels,PEOTV_Music_Channels,PEOTV_Sports_Channels,PEOTV_News_Channels,PEOTV_HD_Pack,Subscription_Type,Minimum_Subscription_Period,Recidence_Type,Tax_Status,Conditions,Available_Regions,Dependent_Packages,Transfer_Medium,TARIFF_NAME,TARIFF_DESC
+BB_Higher_Education,BB,PAID,ADSL,,HIGHER EDUCATION,,4,6,,,Time-based,"21Mbps,512Kbps",,450-1000,390,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Lite,BB,PAID,ADSL,,WEB LITE,,6,9,,,Time-based,"21Mbps,512Kbps",,450-1000,450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Entree,BB,PAID,ADSL,,ENTREE,,,,7,,Anytime,"21Mbps,512Kbps",,450-1000,499,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Starter_4G,BB,PAID,4G,,WEB STARTER 4G,,11,17,,,Time-based,"8Mbps,1024Kbps",,450-1000,740,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Starter_ADSL,BB,PAID,ADSL,,WEB STARTER ADSL,,11,17,,,Time-based,"21Mbps,512Kbps",,450-1000,740,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Higher_Education_2,BB,PAID,ADSL,,HIGHER EDUCATION 2,,12,18,,,Time-based,"21Mbps,512Kbps",,450-1000,790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Joy_4G,BB,PAID,4G,,ANY JOY 4G,,,,22,,Anytime,"8Mbps,1024Kbps",,450-1000,890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Joy_ADSL,BB,PAID,ADSL,,ANY JOY ADSL,,,,22,,Anytime,"21Mbps,512Kbps",,450-1000,890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Pal_4G,BB,PAID,4G,,WEB PAL 4G,,18,27,,,Time-based,"8Mbps,1024Kbps",,450-1000,990,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Pal_ADSL,BB,PAID,ADSL,,WEB PAL ADSL,,18,27,,,Time-based,"21Mbps,512Kbps",,450-1000,990,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Beat_4G,BB,PAID,4G,,ANY BEAT 4G,,,,36,,Anytime,"8Mbps,1024Kbps",,1000-3000,1290,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Beat_ADSL,BB,PAID,ADSL,,ANY BEAT ADSL,,,,36,,Anytime,"21Mbps,512Kbps",,1000-3000,1290,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Plus_4G,BB,PAID,4G,,WEB FAMILY PLUS 4G,,36,54,,,Time-based,"8Mbps,1024Kbps",,1000-3000,1490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Plus_ADSL,BB,PAID,ADSL,,WEB FAMILY PLUS ADSL,,36,54,,,Time-based,"21Mbps,512Kbps",,1000-3000,1490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Plus_Fibre,BB,PAID,Fibre,,WEB FAMILY PLUS FIBRE,,40,60,,,Time-based,"100Mbps,50Mbps",,1000-3000,1490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_flix_4G,BB,PAID,4G,,ANY FLIX 4G,,,,53,,Anytime,"8Mbps,1024Kbps",,1000-3000,1790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_flix_ADSL,BB,PAID,ADSL,,ANY FLIX ADSL,,,,53,,Anytime,"21Mbps,512Kbps",,1000-3000,1790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_flix_Fibre,BB,PAID,Fibre,,ANY FLIX FIBRE,,,,58,,Anytime,"100Mbps,50Mbps",,1000-3000,1790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Active_4G,BB,PAID,4G,,WEB FAMILY ACTIVE 4G,,45,65,,,Time-based,"8Mbps,1024Kbps",,1000-3000,1990,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Active_ADSL,BB,PAID,ADSL,,WEB FAMILY ACTIVE ADSL,,45,65,,,Time-based,"21Mbps,512Kbps",,1000-3000,1990,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Active_Fibre,BB,PAID,Fibre,,WEB FAMILY ACTIVE FIBRE,,50,70,,,Time-based,"100Mbps,50Mbps",,1000-3000,1990,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Lte_Unlimited_2_4G,BB,PAID,4G,,LTE UNLIMITED 2 4G,,,,,2Mbps,Unlimited,"8Mbps,1024Kbps",,1000-3000,2250,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages .
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Adsl_Unlimited_2_ADSL,BB,PAID,ADSL,,ADSL UNLIMITED 2 ADSL,,,,,2Mbps,Unlimited,"21Mbps,512Kbps",,1000-3000,2450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages.
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Migration to unlimited packages is entitled to ADSL connections activated more than 6 months ago.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Blaze_ADSL,BB,PAID,ADSL,,ANY BLAZE ADSL,,,,72,,Anytime,"21Mbps,512Kbps",,1000-3000,2490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Blaze_4G,BB,PAID,4G,,ANY BLAZE FIBRE,,,,82,,Anytime,"100Mbps,50Mbps",,1000-3000,2490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Xtra_4G,BB,PAID,4G,,WEB FAMILY XTRA 4G,,60,90,,,Time-based,"8Mbps,1024Kbps",,1000-3000,2690,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Xtra_ADSL,BB,PAID,ADSL,,WEB FAMILY XTRA ADSL,,60,90,,,Time-based,"21Mbps,512Kbps",,1000-3000,2690,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Family_Xtra_Fibre,BB,PAID,Fibre,,WEB FAMILY XTRA FIBRE,,65,100,,,Time-based,"100Mbps,50Mbps",,1000-3000,2690,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Tide_4G,BB,PAID,4G,,ANY TIDE 4G,,,,100,,Anytime,"8Mbps,1024Kbps",,3000-9000,3390,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Tide_ADSL,BB,PAID,ADSL,,ANY TIDE ADSL,,,,100,,Anytime,"21Mbps,512Kbps",,3000-9000,3390,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Tide_Fibre,BB,PAID,Fibre,,ANY TIDE FIBRE,,,,120,,Anytime,"100Mbps,50Mbps",,3000-9000,3390,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Booster_4G,BB,PAID,4G,,WEB BOOSTER 4G,,75,110,,,Time-based,"8Mbps,1024Kbps",,3000-9000,3490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Booster_ADSL,BB,PAID,ADSL,,WEB BOOSTER ADSL,,75,110,,,Time-based,"21Mbps,512Kbps",,3000-9000,3490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Booster_Fibre,BB,PAID,Fibre,,WEB BOOSTER FIBRE,,85,120,,,Time-based,"100Mbps,50Mbps",,3000-9000,3490,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Lte_Unlimited_4_4G,BB,PAID,4G,,LTE UNLIMITED 4 4G,,,,,4Mbps,Unlimited,"8Mbps,1024Kbps",,3000-9000,3950,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages .
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Spike_4G,BB,PAID,4G,,ANY SPIKE 4G,,,,130,,Anytime,"8Mbps,1024Kbps",,3000-9000,4390,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Spike_ADSL,BB,PAID,ADSL,,ANY SPIKE ADSL,,,,130,,Anytime,"21Mbps,512Kbps",,3000-9000,4390,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Spike_Fibre,BB,PAID,Fibre,,ANY SPIKE FIBRE,,,,155,,Anytime,"100Mbps,50Mbps",,3000-9000,4390,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Adsl_Unlimited_4_ADSL,BB,PAID,ADSL,,ADSL UNLIMITED 4 ADSL,,,,,4Mbps,Unlimited,"21Mbps,512Kbps",,3000-9000,4450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages.
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Migration to unlimited packages is entitled to ADSL connections activated more than 6 months ago.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Pro_Fibre,BB,PAID,Fibre,,WEB PRO FIBER,,105,155,,,Time-based,"100Mbps,50Mbps",,3000-9000,4890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Pro_Fibre_1Gbps,BB,PAID,Fibre,,WEB PRO FIBER 1GBPS,,115,170,,,Time-based,"1Gbps,500Mbps",,3000-9000,4890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Pro_4G,BB,PAID,4G,,WEB PRO 4G,,95,140,,,Time-based,"8Mbps,1024Kbps",,3000-9000,4890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Pro_ADSL,BB,PAID,ADSL,,WEB PRO ADSL,,95,140,,,Time-based,"21Mbps,512Kbps",,3000-9000,4890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Lte_Unlimited_8_4G,BB,PAID,4G,,LTE UNLIMITED  8 4G,,,,,8Mbps,Unlimited,"8Mbps,1024Kbps",,3000-9000,5450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages .
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Fibre_Unlimited_Flash_10_Fibre,BB,PAID,Fibre,,FIBRE UNLIMITED FLASH 10,,,,,"100Mbps-10GB,1Mbps",Unlimited,"100Mbps,50Mbps",,3000-9000,5450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages (Except for Fibre Unlimited Flash 10 & 25 packages).
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Adsl_Unlimited_8_ADSL,BB,PAID,ADSL,,ADSL UNLIMITED 8 ADSL,,,,,8Mbps,Unlimited,"21Mbps,512Kbps",,3000-9000,5750,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages.
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Migration to unlimited packages is entitled to ADSL connections activated more than 6 months ago.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Fibre_Unlimited_10_Fibre,BB,PAID,Fibre,,FIBRE UNLIMITED 10,,,,,10Mbps,Unlimited,"100Mbps,50Mbps",,3000-9000,5950,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages (Except for Fibre Unlimited Flash 10 & 25 packages).
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Strom_4G,BB,PAID,4G,,ANY STORM 4G,,,,200,,Anytime,"8Mbps,1024Kbps",,3000-9000,6790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Strom_ADSL,BB,PAID,ADSL,,ANY STORM ADSL,,,,200,,Anytime,"21Mbps,512Kbps",,3000-9000,6790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Strom_Fibre,BB,PAID,Fibre,,ANY STORM FIBRE,,,,250,,Anytime,"100Mbps,50Mbps",,3000-9000,6790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Strom_Fibre_1Gbps,BB,PAID,Fibre,,ANY STORM FIBRE 1GBPS,,,,275,,Anytime,"1Gbps,500Mbps",,3000-9000,6790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Master_4G,BB,PAID,4G,,WEB MASTER 4G,,170,255,,,Time-based,"8Mbps,1024Kbps",,3000-9000,8890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Master_ADSL,BB,PAID,ADSL,,WEB MASTER ADSL,,170,255,,,Time-based,"21Mbps,512Kbps",,3000-9000,8890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Master_Fibre,BB,PAID,Fibre,,WEB MASTER FIBRE,,190,280,,,Time-based,"100Mbps,50Mbps",,3000-9000,8890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Master_Fibre_1Gbps,BB,PAID,Fibre,,WEB MASTER FIBRE 1GBPS,,205,305,,,Time-based,"1Gbps,500Mbps",,3000-9000,8890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Fibre_Unimited_Flash_25_Fibre,BB,PAID,Fibre,,FIBRE UNLIMITED FLASH 25,,,,,"100Mbps - 25GB, 1Mbps",Unlimited,"100Mbps,50Mbps",,9000-20000,9450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages (Except for Fibre Unlimited Flash 10 & 25 packages).
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Fibre_Unlimited_25_Fibre,BB,PAID,Fibre,,FIBRE UNLIMITED 25,,,,,25Mbps,Unlimited,"100Mbps,50Mbps",,9000-20000,10450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages (Except for Fibre Unlimited Flash 10 & 25 packages).
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Glam_4G,BB,PAID,4G,,ANY GLAM 4G,,,,350,,Anytime,"8Mbps,1024Kbps",,9000-20000,11790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Glam_ADSL,BB,PAID,ADSL,,ANY GLAM ADSL,,,,350,,Anytime,"21Mbps,512Kbps",,9000-20000,11790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Glam_Fibre,BB,PAID,Fibre,,ANY GLAM FIBRE,,,,420,,Anytime,"100Mbps,50Mbps",,9000-20000,11790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Glam_Fibre_1Gbps,BB,PAID,Fibre ,,ANY GLAM FIBRE 1GBPS,,,,460,,Anytime,"1Gbps,500Mbps",,9000-20000,11790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Champ_4G,BB,PAID,4G,,WEB CHAMP 4G,,270,405,,,Time-based,"8Mbps,1024Kbps",,9000-20000,13690,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Champ_ADSL,BB,PAID,ADSL,,WEB CHAMP ADSL,,270,405,,,Time-based,"21Mbps,512Kbps",,9000-20000,13690,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Champ_Fibre,BB,PAID,Fibre,,WEB CHAMP FIBRE,,300,540,,,Time-based,"100Mbps,50Mbps",,9000-20000,13690,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Champ_Fibre_1Gbps,BB,PAID,Fibre,,WEB CHAMP FIBRE 1GBPS,,325,485,,,Time-based,"1Gbps,500Mbps",,9000-20000,13690,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Delight_4G,BB,PAID,4G,,ANY DELIGHT 4G,,,,500,,Anytime,"8Mbps,1024Kbps",,9000-20000,16790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Delight_ADSL,BB,PAID,ADSL,,ANY DELIGHT ADSL,,,,500,,Anytime,"21Mbps,512Kbps",,9000-20000,16790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Delight_Fibre,BB,PAID,Fibre,,ANY DELIGHT FIBRE,,,,600,,Anytime,"100Mbps,50Mbps",,9000-20000,16790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Delight_Fibre_1Gbps,BB,PAID,Fibre,,ANY DELIGHT FIBRE 1GBPS,,,,650,,Anytime,"1Gbps,500Mbps",,9000-20000,16790,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Life_4G,BB,PAID,4G,,WEB LIFE 4G,,400,600,,,Time-based,"8Mbps,1024Kbps",,9000-20000,19890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Life_ADSL,BB,PAID,ADSL,,WEB LIFE ADSL,,400,600,,,Time-based,"21Mbps,512Kbps",,9000-20000,19890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Life_Fibre,BB,PAID,Fibre,,WEB LIFE FIBRE,,440,660,,,Time-based,"100Mbps,50Mbps",,9000-20000,19890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Life_Fibre_1Gbps,BB,PAID,Fibre,,WEB LIFE FIBRE 1GBPS,,480,720,,,Time-based,"1Gbps,500Mbps",,9000-20000,19890,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Fibre_Unlimited_50_Fibre,BB,PAID,Fibre,,FIBRE UNLIMITED 50,,,,,50Mbps,Unlimited,"100Mbps,50Mbps",,20000-60000,20450,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Only applicable for residential broadband customers.
+Connection speeds will be given at best effort.
+Torrents, Telegram, VPNs and Peer-to-peer applications are blocked only for unlimited packages (Except for Fibre Unlimited Flash 10 & 25 packages).
+No ExtraGB and Data Add-ons applicable for unlimited packages.
+Static IP option not available for unlimited packages.
+Unlimited packages are not entitled to sltgo community Wi-Fi service.
+Unlimited packages are not entitled to SLT Broadband Loyalty Data.
+The package transfer fee of Rs.500 is applicable for migration from other packages.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Xtreme_4G,BB,PAID,4G,,ANY XTREME 4G,,,,750,,Anytime,"8Mbps,1024Kbps",,20000-60000,25000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Xtreme_ADSL,BB,PAID,ADSL,,ANY XTREME ADSL,,,,750,,Anytime,"21Mbps,512Kbps",,20000-60000,25000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Xtreme_Fibre,BB,PAID,Fibre,,ANY XTREME FIBRE,,,,900,,Anytime,"100Mbps,50Mbps",,20000-60000,25000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Any_Xtreme_Fibre_1Gbps,BB,PAID,Fibre,,ANY XTREME FIBRE 1GBPS,,,,1000,,Anytime,"1Gbps,500Mbps",,20000-60000,25000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Inspire_4G,BB,PAID,4G,,WEB INSPIRE 4G,,700,1000,,,Time-based,"8Mbps,1024Kbps",,20000-60000,33000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Inspire_ADSL,BB,PAID,ADSL,,WEB INSPIRE ADSL,,700,1000,,,Time-based,"21Mbps,512Kbps",,20000-60000,33000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Inspire_Fibre,BB,PAID,Fibre,,WEB INSPIRE FIBRE,,800,1100,,,Time-based,"100Mbps,50Mbps",,20000-60000,33000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Inspire_Fibre_1Gbps,BB,PAID,Fibre,,WEB INSPIRE FIBRE 1GBPS,,840,1200,,,Time-based,"1Gbps,500Mbps",,20000-60000,33000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Premire_4G,BB,PAID,4G,,WEB PREMIER 4G,,1250,1750,,,Time-based,"8Mbps,1024Kbps",,20000-60000,58000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Premire_ADSL,BB,PAID,ADSL,,WEB PREMIER ADSL,,1250,1750,,,Time-based,"21Mbps,512Kbps",,20000-60000,58000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Premire_Fibre,BB,PAID,Fibre,,WEB PREMIER FIBRE,,1375,1925,,,Time-based,"100Mbps,50Mbps",,20000-60000,58000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Web_Premire_Fibre_1Gbps,BB,PAID,Fibre,,WEB PREMIER FIBRE 1GBPS,,1500,2100,,,Time-based,"1Gbps,500Mbps",,20000-60000,58000,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+BB_Filmhall_Box_office,BB,PAID,"ADSL,Fibre,4G",,Filmhall Box Office,"SLT was proud to announce the launch of SLT Filmhall, a streaming service via the first of its kind, Sri Lanka's OTT (Over-The-Top) platform to make entertainment options available online to Sri Lankans. SLT customers can now enjoy high quality video streaming, music downloads and gaming facilities as never experienced before in Sri Lanka, bringing a cinema experience right to the home. All these services are available through a single web portal, https://sltfilmhall.slt.lk - Unlimited Movie Streaming
+
+",,,,,,,,199,199,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Flash player 10 or the latest version required to play streaming contents.
+It is advisable to install the latest version of your web browser for optimum viewing experience and compatibility.
+Subscriber will be billed the full amount as opposed to pro-rata basis for every service subscribed to.
+Subscriber can subscribe only for one type of monthly recurring plans, except for Rent a movie type purchases. Rent a movie (VOD) is for one time purchase.
+Subscriber can subscribe for services until he reaches his credit limit which is imposed by SLT based on customer’s broadband package type.
+Subscriber will be charged an additional Rs. 100 for package downgrade.
+Viewer discretion is strongly advised with respect to the content available on the website www.hungama.com/slt.
+This Service cannot be activated through SLT Contact Centre- 1212. SLT Customer Support Team only provides the guidance to register for the service and customer needs to activate the service by visiting the website.
+Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.",,,,,
+BB_Filmhall_Juke_Box,BB,PAID,"ADSL,Fibre,4G",YES,Filmhall Juke Box,Stream or download unlimited songs and music videos.,,,,,,,,149,149,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Flash player 10 or the latest version required to play streaming contents.
+It is advisable to install the latest version of your web browser for optimum viewing experience and compatibility.
+Subscriber will be billed the full amount as opposed to pro-rata basis for every service subscribed to.
+Subscriber can subscribe only for one type of monthly recurring plans, except for Rent a movie type purchases. Rent a movie (VOD) is for one time purchase.
+Subscriber can subscribe for services until he reaches his credit limit which is imposed by SLT based on customer’s broadband package type.
+Subscriber will be charged an additional Rs. 100 for package downgrade.
+Viewer discretion is strongly advised with respect to the content available on the website www.hungama.com/slt.
+This Service cannot be activated through SLT Contact Centre- 1212. SLT Customer Support Team only provides the guidance to register for the service and customer needs to activate the service by visiting the website.
+Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.",,,,,
+BB_Filmhall_Console,BB,PAID,"ADSL,Fibre,4G",YES,Filmhall Console,Unlimited Games Access,,,,,,,,130,130,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Flash player 10 or the latest version required to play streaming contents.
+It is advisable to install the latest version of your web browser for optimum viewing experience and compatibility.
+Subscriber will be billed the full amount as opposed to pro-rata basis for every service subscribed to.
+Subscriber can subscribe only for one type of monthly recurring plans, except for Rent a movie type purchases. Rent a movie (VOD) is for one time purchase.
+Subscriber can subscribe for services until he reaches his credit limit which is imposed by SLT based on customer’s broadband package type.
+Subscriber will be charged an additional Rs. 100 for package downgrade.
+Viewer discretion is strongly advised with respect to the content available on the website www.hungama.com/slt.
+This Service cannot be activated through SLT Contact Centre- 1212. SLT Customer Support Team only provides the guidance to register for the service and customer needs to activate the service by visiting the website.
+Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.",,,,,
+BB_Filmhall_Cineplex,BB,PAID,"ADSL,Fibre,4G",YES,Filmhall Cineplex,Stream or download unlimited songs and music videos with streaming movie and games access,,,,,,,,299,299,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Flash player 10 or the latest version required to play streaming contents.
+It is advisable to install the latest version of your web browser for optimum viewing experience and compatibility.
+Subscriber will be billed the full amount as opposed to pro-rata basis for every service subscribed to.
+Subscriber can subscribe only for one type of monthly recurring plans, except for Rent a movie type purchases. Rent a movie (VOD) is for one time purchase.
+Subscriber can subscribe for services until he reaches his credit limit which is imposed by SLT based on customer’s broadband package type.
+Subscriber will be charged an additional Rs. 100 for package downgrade.
+Viewer discretion is strongly advised with respect to the content available on the website www.hungama.com/slt.
+This Service cannot be activated through SLT Contact Centre- 1212. SLT Customer Support Team only provides the guidance to register for the service and customer needs to activate the service by visiting the website.
+Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.",,,,,
+BB_Filmhall_Rent_at_75,BB,PAID,"ADSL,Fibre,4G",YES,Filmhall Rent@75,"SLT was proud to announce the launch of SLT Filmhall, a streaming service via the first of its kind, Sri Lanka's OTT (Over-The-Top) platform to make entertainment options available online to Sri Lankans. SLT customers can now enjoy high quality video streaming, music downloads and gaming facilities as never experienced before in Sri Lanka, bringing a cinema experience right to the home. All these services are available through a single web portal, https://sltfilmhall.slt.lk - Unlimited Movie Streaming
+
+",,,,,,,,75,,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Flash player 10 or the latest version required to play streaming contents.
+It is advisable to install the latest version of your web browser for optimum viewing experience and compatibility.
+Subscriber will be billed the full amount as opposed to pro-rata basis for every service subscribed to.
+Subscriber can subscribe only for one type of monthly recurring plans, except for Rent a movie type purchases. Rent a movie (VOD) is for one time purchase.
+Subscriber can subscribe for services until he reaches his credit limit which is imposed by SLT based on customer’s broadband package type.
+Subscriber will be charged an additional Rs. 100 for package downgrade.
+Viewer discretion is strongly advised with respect to the content available on the website www.hungama.com/slt.
+This Service cannot be activated through SLT Contact Centre- 1212. SLT Customer Support Team only provides the guidance to register for the service and customer needs to activate the service by visiting the website.
+Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.",,,,,
+BB_Filmhall_Box_Rent_at_99,BB,PAID,"ADSL,Fibre,4G",YES,Filmhall Rent@99,"SLT was proud to announce the launch of SLT Filmhall, a streaming service via the first of its kind, Sri Lanka's OTT (Over-The-Top) platform to make entertainment options available online to Sri Lankans. SLT customers can now enjoy high quality video streaming, music downloads and gaming facilities as never experienced before in Sri Lanka, bringing a cinema experience right to the home. All these services are available through a single web portal, https://sltfilmhall.slt.lk - Unlimited Movie Streaming
+
+",,,,,,,,99,,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Flash player 10 or the latest version required to play streaming contents.
+It is advisable to install the latest version of your web browser for optimum viewing experience and compatibility.
+Subscriber will be billed the full amount as opposed to pro-rata basis for every service subscribed to.
+Subscriber can subscribe only for one type of monthly recurring plans, except for Rent a movie type purchases. Rent a movie (VOD) is for one time purchase.
+Subscriber can subscribe for services until he reaches his credit limit which is imposed by SLT based on customer’s broadband package type.
+Subscriber will be charged an additional Rs. 100 for package downgrade.
+Viewer discretion is strongly advised with respect to the content available on the website www.hungama.com/slt.
+This Service cannot be activated through SLT Contact Centre- 1212. SLT Customer Support Team only provides the guidance to register for the service and customer needs to activate the service by visiting the website.
+Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.",,,,,
+BB_Usage_Reports,BB,PAID,"ADSL,Fibre,4G",YES,Usage Reports,Now you can view your broadband usage details through the Broadband VAS Portal interface. The newly added Usage Report as a value added feature gives you detailed access information to ensure that you can be 100% secure about how your data has been used.,,,,,,,,40,40,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.,,,,,
+BB_guru.lk,BB,PAID,"ADSL,Fibre,4G",YES,guru.lk,"Guru.lk, Sri Lanka’s leading eLearning portal has partnered with SLT to enable Broadband customers to pay via the monthly bill for its courses. Guru.lk features online courses on a variety of subjects ranging from school curriculum to professional education and other edutainment courses.",,,,,,,,,0,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,Above charges are exclusive of taxes and relevant government taxes are applicable at the time of purchase.,,,,,
+BB_Kaspersky_IS_!,BB,PAID,"ADSL,Fibre,4G",YES,Kaspersky Internet security (1 Device),"Virus protection and internet security are very important to safeguard your valuable data and privacy over the internet. Join hands with Kaspersky, SLT introduces special monthly subscription plan for SLT Broadband customers. Now you can subscribe to Kaspersky security products and pay its subscription fee with SLT bill as a monthly installment. You can simply subscribe to below mentioned Kaspersky products online through broadband VAS Portal, MySLT App, or calling 1212 hotline.",,,,,,,,146,146,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"30 days free use after subscription.
+Easy online subscription through Broadband VAS Portal, MySLT App or calling 1212 hotline.
+12 months installment plan.
+Pay with SLT Bill.
+No credit/debit card payments.",,,,,
+BB_Kaspersky_TS_1,BB,PAID,"ADSL,Fibre,4G",YES,Kaspersky Internet security (1 Device),"Virus protection and internet security are very important to safeguard your valuable data and privacy over the internet. Join hands with Kaspersky, SLT introduces special monthly subscription plan for SLT Broadband customers. Now you can subscribe to Kaspersky security products and pay its subscription fee with SLT bill as a monthly installment. You can simply subscribe to below mentioned Kaspersky products online through broadband VAS Portal, MySLT App, or calling 1212 hotline.",,,,,,,,198,198,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"30 days free use after subscription.
+Easy online subscription through Broadband VAS Portal, MySLT App or calling 1212 hotline.
+12 months installment plan.
+Pay with SLT Bill.
+No credit/debit card payments.",,,,,
+BB_Kaspersky_A,BB,PAID,"ADSL,Fibre,4G",YES,Kaspersky Internet security (1 Device),"Virus protection and internet security are very important to safeguard your valuable data and privacy over the internet. Join hands with Kaspersky, SLT introduces special monthly subscription plan for SLT Broadband customers. Now you can subscribe to Kaspersky security products and pay its subscription fee with SLT bill as a monthly installment. You can simply subscribe to below mentioned Kaspersky products online through broadband VAS Portal, MySLT App, or calling 1212 hotline.",,,,,,,,132,132,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"30 days free use after subscription.
+Easy online subscription through Broadband VAS Portal, MySLT App or calling 1212 hotline.
+12 months installment plan.
+Pay with SLT Bill.
+No credit/debit card payments.",,,,,
+BB_Kaspersky_IS_3,BB,PAID,"ADSL,Fibre,4G",YES,Kaspersky Internet security (1 Device),"Virus protection and internet security are very important to safeguard your valuable data and privacy over the internet. Join hands with Kaspersky, SLT introduces special monthly subscription plan for SLT Broadband customers. Now you can subscribe to Kaspersky security products and pay its subscription fee with SLT bill as a monthly installment. You can simply subscribe to below mentioned Kaspersky products online through broadband VAS Portal, MySLT App, or calling 1212 hotline.",,,,,,,,302,302,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"30 days free use after subscription.
+Easy online subscription through Broadband VAS Portal, MySLT App or calling 1212 hotline.
+12 months installment plan.
+Pay with SLT Bill.
+No credit/debit card payments.",,,,,
+BB_Kaspersky_IS_A_1,BB,PAID,"ADSL,Fibre,4G",YES,Kaspersky Internet security (1 Device),"Virus protection and internet security are very important to safeguard your valuable data and privacy over the internet. Join hands with Kaspersky, SLT introduces special monthly subscription plan for SLT Broadband customers. Now you can subscribe to Kaspersky security products and pay its subscription fee with SLT bill as a monthly installment. You can simply subscribe to below mentioned Kaspersky products online through broadband VAS Portal, MySLT App, or calling 1212 hotline.",,,,,,,,76,76,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"30 days free use after subscription.
+Easy online subscription through Broadband VAS Portal, MySLT App or calling 1212 hotline.
+12 months installment plan.
+Pay with SLT Bill.
+No credit/debit card payments.",,,,,
+BB_Kaspersky_Safe_Kids,BB,PAID,"ADSL,Fibre,4G",YES,Kaspersky Internet security (1 Device),"Virus protection and internet security are very important to safeguard your valuable data and privacy over the internet. Join hands with Kaspersky, SLT introduces special monthly subscription plan for SLT Broadband customers. Now you can subscribe to Kaspersky security products and pay its subscription fee with SLT bill as a monthly installment. You can simply subscribe to below mentioned Kaspersky products online through broadband VAS Portal, MySLT App, or calling 1212 hotline.",,,,,,,,104,104,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY, TRIPLE_PLAY",,"Home,Office",EXCLUDED,"30 days free use after subscription.
+Easy online subscription through Broadband VAS Portal, MySLT App or calling 1212 hotline.
+12 months installment plan.
+Pay with SLT Bill.
+No credit/debit card payments.",,,,,
+P_FIbre,"VOICE,BB,PEOTV",PAID,"Telephone, Fibre,PeoTV",,"Fibre Telephone, Broadband & PeoTV","Telephone, Broadband and PeoTV connection with FIBRE ONT",,,,,,"100Mbps,50Mbps","Telephone,Fibre_ONT,PEOTV_STB",12500,630,430,390,"1.7,2.7","1.5,2.0",100 minutes/ 390 worth ONNET free calls,,,,,,,,,,,,,,,TRIPLE_PLAY,1,"Home,Office",EXCLUDED,"Wi-Fi enabled FTTx router included into all packages.
+Additional voice line can be requested. Broadband-Web Family or above package can be selected as you wish. All new connections are subjected to minimum 01 year commitment period.
+Rs.5000 will be charges for early termination within the commitment period.
+Above charges are exclusive of taxes. Relevant taxes will be applicable at the time of purchase. PeoTV package can be selected as you wish.
+",,,,,
+P_FIbre_1Gbps,"VOICE,BB,PEOTV",PAID,"Telephone, Fibre, PeoTV",,"Fibre Telephone,Broadband & PeoTV","Telephone, Broadband and PeoTV connection with FIBRE ONT",,,,,,"1Gbps,500Mbps","Telephone,Fibre_ONT,PEOTV_STB",20000,630,430,390,"1.7,2.7","1.5,2.0",100 minutes/ 390 worth ONNET free calls,,,,,,,,,,,,,,,TRIPLE_PLAY,1,"Home,Office",EXCLUDED,"Wi-Fi enabled FTTx router included into all packages.
+Additional voice line can be requested. Broadband-Web Family or above package can be selected as you wish. All new connections are subjected to minimum 01 year commitment period.
+Rs.5000 will be charges for early termination within the commitment period.
+Above charges are exclusive of taxes. Relevant taxes will be applicable at the time of purchase. *Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase.",,,,,
+P_4G_LTE,"VOICE,BB",PAID,4G,,4G LTE Voice + Broadband,,,,,,,"8Mbps,1024Kbps","Telephone,4G/LTE_Router",2400,499,310,310,"1.7,2.7","1.5,2.0",100 minutes within SLT netowrk,,,,,,,,,,,,,,,DOUBLE_PLAY,1,"Home,Office",EXCLUDED,"A minimum subscription period of 01 year is required.
+Rs.5000 will be charged for early termination within the commitment period.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase.Additional usage is charged Rs. 0.30 per MB. Maximum additional usage volume is 3 GB.",,,,,
+V-Basic3_TeleLife,VOICE,PAID,"4G,ADSL,Fibre",YES,Telelife Basic 3,"Tele Life insurance policy offered by SLT in partnership with Sri Lanka Insurance Corporation, provides life insurance at affordable premiums for SLT Customers. One of the major benefits of the service is the affordability of the premiums and convenience involved, in that premiums will be charged to the customer's monthly telephone bill and can be paid along with the SLT Telephone bill each month",,,,,,,,120,120,,,,,,,300000,,,,,,,,,,,,,"SINGLE_PLAY,DOUBLE_PLAY,TRIPLE_PLAY",1,"Home,Office",EXCLUDED,"Agreement will be terminated due to non settlements of the payment for three (03) consecutive months
+Customer can terminate the agreement at any time by calling customer support hotline on 1212 and making a request.
+Customer has to sign and submit a form of Declaration of Good Health to SLT.
+When a customer's phone is disconnected then the insurance scheme will also be terminated. If the customer requires to rejoin the scheme, then he/she should submit a completed form of Declaration of Good Health to SLT.
+Above charges are exclusive of taxes. Relevant taxes will be applicable at the time of purchase.",,,,,
+V-Plus2_TeleLife,VOICE,PAID,"4G,ADSL,Fibre",YES,Telelife Plus 2,"Tele Life insurance policy offered by SLT in partnership with Sri Lanka Insurance Corporation, provides life insurance at affordable premiums for SLT Customers. One of the major benefits of the service is the affordability of the premiums and convenience involved, in that premiums will be charged to the customer's monthly telephone bill and can be paid along with the SLT Telephone bill each month",,,,,,,,150,150,,,,,,,200000,,,,,,,,,,,,,"SINGLE_PLAY,DOUBLE_PLAY,TRIPLE_PLAY",1,"Home,Office",EXCLUDED,"Agreement will be terminated due to non settlements of the payment for three (03) consecutive months
+Customer can terminate the agreement at any time by calling customer support hotline on 1212 and making a request.
+Customer has to sign and submit a form of Declaration of Good Health to SLT.
+When a customer's phone is disconnected then the insurance scheme will also be terminated. If the customer requires to rejoin the scheme, then he/she should submit a completed form of Declaration of Good Health to SLT.
+Above charges are exclusive of taxes. Relevant taxes will be applicable at the time of purchase.",,,,,
+V-Plus3_TeleLife,VOICE,PAID,"4G,ADSL,Fibre",YES,Telelife Plus 3,"Tele Life insurance policy offered by SLT in partnership with Sri Lanka Insurance Corporation, provides life insurance at affordable premiums for SLT Customers. One of the major benefits of the service is the affordability of the premiums and convenience involved, in that premiums will be charged to the customer's monthly telephone bill and can be paid along with the SLT Telephone bill each month",,,,,,,,200,200,,,,,,,300000,,,,,,,,,,,,,"SINGLE_PLAY,DOUBLE_PLAY,TRIPLE_PLAY",1,"Home,Office",EXCLUDED,"Agreement will be terminated due to non settlements of the payment for three (03) consecutive months
+Customer can terminate the agreement at any time by calling customer support hotline on 1212 and making a request.
+Customer has to sign and submit a form of Declaration of Good Health to SLT.
+When a customer's phone is disconnected then the insurance scheme will also be terminated. If the customer requires to rejoin the scheme, then he/she should submit a completed form of Declaration of Good Health to SLT.
+Above charges are exclusive of taxes. Relevant taxes will be applicable at the time of purchase.",,,,,
+V_MyAstro,VOICE,PAID,"4G,ADSL,Fibre",YES,MyAstro,"MyAstro Astrology service provides you accurate and trusted predictions on your life, which are different to the traditional “Star Sign” based astrology readings that are currently widely available in Newspapers, TV, Radio etc.",,,,,,,,30,30,,,5,5,,,,,,,,,,,,,,,,"SINGLE_PLAY,DOUBLE_PLAY,TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Service registration & receiving predictions.
+Whenever you get a NEW PIN, you will be considered a registered customer (create profile) and rental will be deducted/ added for prepaid and postpaid customers respectively according to the package chosen.
+If you register for the service before 8.00 p.m. of the given date, you will be able to receive predictions from the following day morning.
+If registrations are done after 8.00 p.m. of the given date, you will be able to receive SMS predictions after one day.
+Service termination/ renewal can be done once every billing month, upon your request.
+All above charges are exclusive of taxes.",,,,,
+V_Suba,VOICE,PAID,"4G,ADSL,Fibre",YES,MyAstro Suba,"MyAstro Astrology service provides you accurate and trusted predictions on your life, which are different to the traditional “Star Sign” based astrology readings that are currently widely available in Newspapers, TV, Radio etc.",,,,,,,,20,20,,,5,5,,,,,,,,,,,,,,,,"SINGLE_PLAY,DOUBLE_PLAY,TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Service registration & receiving predictions.
+Whenever you get a NEW PIN, you will be considered a registered customer (create profile) and rental will be deducted/ added for prepaid and postpaid customers respectively according to the package chosen.
+If you register for the service before 8.00 p.m. of the given date, you will be able to receive predictions from the following day morning.
+If registrations are done after 8.00 p.m. of the given date, you will be able to receive SMS predictions after one day.
+Service termination/ renewal can be done once every billing month, upon your request.
+All above charges are exclusive of taxes.",,,,,
+V_Nume,VOICE,PAID,"4G,ADSL,Fibre",YES,MyAstro Nume,"MyAstro Astrology service provides you accurate and trusted predictions on your life, which are different to the traditional “Star Sign” based astrology readings that are currently widely available in Newspapers, TV, Radio etc.",,,,,,,,20,20,,,5,5,,,,,,,,,,,,,,,,"SINGLE_PLAY,DOUBLE_PLAY,TRIPLE_PLAY",,"Home,Office",EXCLUDED,"Service registration & receiving predictions.
+Whenever you get a NEW PIN, you will be considered a registered customer (create profile) and rental will be deducted/ added for prepaid and postpaid customers respectively according to the package chosen.
+If you register for the service before 8.00 p.m. of the given date, you will be able to receive predictions from the following day morning.
+If registrations are done after 8.00 p.m. of the given date, you will be able to receive SMS predictions after one day.
+Service termination/ renewal can be done once every billing month, upon your request.
+All above charges are exclusive of taxes.",,,,,
+E_Music_on_Demand,PEOTV,PAID,PeoTV,YES,Music On Demand,Music Library comprising a vast selection of popular music albums which enables you to listen to your favorite songs whenever you want,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY,TRIPLE_PLAY",,Home,,,,,,,
+E_Education_on_Demand,PEOTV,PAID,PeoTV,YES,Education On Demand,Education on Demand - Tuition to your Doorstep. The novel mode of Learning for all students who are interested in learning from home.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY,TRIPLE_PLAY",,Home,,,,,,,
+E_TV_on_Demand,PEOTV,PAID,PeoTV,YES,TV On Demand,"TV on Demand.Enjoy good old TV programs at a click of a button.
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"DOUBLE_PLAY,TRIPLE_PLAY",,Home,,,,,,,
+PEO_SILVER,PEO TV,PAID,PeoTV,,Silver,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,899,,,,,,,,79,7,34,1,3,8,2,7,3,3,8,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_ENTERTAINMENT,PEO TV,PAID,PeoTV,,Entertainement,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,1499,,,,,,,,87,9,34,8,1,8,2,7,4,7,6,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_SILVER_PLUS,PEO TV,PAID,PeoTV,,Silver Plus,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,1099,,,,,,,,85,8,34,9,4,8,2,7,3,4,9,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_UNNATHAM,PEO TV,PAID,PeoTV,,Unnatham,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,899,,,,,,,,68,9,15,1,3,6,11,1,1,1,7,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_TITANIUM,PEO TV,PAID,PeoTV,,Titenium,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,2099,,,,,,,,119,15,34,8,8,8,4,9,4,9,9,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_GOLD,PEO TV,PAID,PeoTV,,Gold,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,1499,,,,,,,,98,11,34,4,6,8,4,8,4,4,9,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_PLATINUM,PEO TV,PAID,PeoTV,,Platinum,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,1899,,,,,,,,104,12,34,8,6,8,4,8,4,4,9,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_FAMILY,PEO TV,PAID,PeoTV,,Family,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,1299,,,,,,,,86,8,34,2,4,8,2,9,3,2,9,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_UTHAYAM,PEO TV,PAID,PeoTV,,Uthyam,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PRANAMA,PEO TV,PAID,PeoTV,,Pranama,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+DOUBLEPROMO,PEO TV,PAID,PeoTV,,Double Promo,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_SILVER_FTTH,PEO TV,PAID,PeoTV,,Silver FTTH,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+NEW_SLT_STAFF_PACKAGE,PEO TV,PAID,PeoTV,,SLT Staff Package,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+BOC,PEO TV,PAID,PeoTV,,BOC,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+SLT_STAFF_TRIPLE_PLAY,PEO TV,PAID,PeoTV,,Stall Triple Play,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE",TRIPLE_PLAY,,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+NEW_YEAR_TREAT,PEO TV,PAID,PeoTV,,New year Treat,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+SLT_STAFF_PEO_UNNATHAM_FTTH,PEO TV,PAID,PeoTV,,Unnatham FTTH,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+SLTStaff_PEO_SILVER,PEO TV,PAID,PeoTV,,Silver Staff,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_RELIGIOUS_PACKAGE,PEO TV,PAID,PeoTV,,Religious Package,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+LOTUS,PEO TV,PAID,PeoTV,,Lotus,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+LEISURE_SPORTS,PEO TV,PAID,PeoTV,,Leisure Sports,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+PEO_SILVER_PLUS_FTTH,PEO TV,PAID,PeoTV,,Silver Plus FTTH,PEO TV brings the latest Local & Global news & Entertainment from around the world at a click of a button. Its interactivity will amaze you & will make you want PEO around you almost all the time to guide & help you in providing high quality personalized entertainment to suite your taste.,,,,,,,,5990,,,,,,,,,,,,,,,,,,,,"TRIPLE_PLAY,FIBRE","DOUBLE_PLAY,TRIPLE_PLAY",,Home,EXCLUDED,https://www.slt.lk/sites/default/files/downloads/general_downloads/SLT%20PEO%20TV%20-%20Terms%20and%20Condition%20English.pdf,,,,,
+C_Sisu Connect,OTHER,,,YES,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P-Basic4_Tele Life,OTHER,,,YES,,,,,,,,,,,150,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C-Basic1_Tele Life,OTHER,,,YES,,,,,,,,,,,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P-Plus4_Tele Life,OTHER,,,YES,,,,,,,,,,,250,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P-Basic2_Tele Life,OTHER,,,YES,,,,,,,,,,,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Sisu Connect,OTHER,,,YES,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Detailed Bill,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Call Transfer Three way,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Call holding,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Outgoing Call Memory,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Call back on busy,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Call Forwarding Offline,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Incoming Call Transfer,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Megaline New Connection,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Additional features -Double VAS Bundle,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Call Forwarding by time,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Incoming Call Memory,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Anonymous call barring,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Call park,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_CLI presentation in call waiting,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_One-Time Detailed Bill,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P-Plus1_Tele Life,OTHER,,,YES,,,,,,,,,,,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Cordeless Phone - Installment,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Basic Phone,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Referral offer Discount,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Short Message Service,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding - No Answer,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding - On Busy,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Additional Distance,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Miscellaneous Service,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Voice Startup Fee,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Referral offer Discount,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Citylink Loyalty Rewards,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E_Referral offer Discount,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Double VAS Bundle,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Relocation,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BB_PeoTVGO Revenue code,PEOTV,,,YES,,,,,,,,,,,249,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M_Activation Charge,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Megaline Startup,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Rental Free,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Barring - Outgoing,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding - Immediate,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Barring,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Removal of Int & Parallel Ext,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_Megaline,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DQ_Contact Details,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_One-Time Detailed Bill,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_SLT CLI,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P_IDD,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Railway Registration,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Triple VAS Bundle,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package Rental Through ADSL,OTHER,,,YES,,,,,,,,,,,199,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Hotline-Immediate,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Caller Line Identification,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Selective call acceptance,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E_PeoTV_Package Transfer,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Do not disturb service,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Complete call on no response,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P-Basic1_Tele Life,OTHER,,,YES,,,,,,,,,,,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Secretary service,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call forwarding selective,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Selective call rejection,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Caller name identificationPresentation,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Caller name sending,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Password call barring (secret code),VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEO TV GO_OTT_A-la carte channels,PEOTV,,,YES,,,,,,,,,,,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Basic Phone Installment,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E_PeoTV Initiation,PEOTV,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E_TSTV,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Installment,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Transfer Three way,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E_Video on Demand,PEOTV,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Abbreviated Dialing,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Hotline-Time Delayed,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding by time,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Single VAS Bundle,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call holding,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Absentee service,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PeoTVGo_Channel Package,PEOTV,,,YES,,,,,,,,,,,350,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Hotline Service,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Selective call waiting,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding Offline,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Waiting,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_CLI presentation in call waiting,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_DQ Contact Details,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_SLT CLI,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Service Vacation,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Anonymous call barring,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call park,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Outgoing Call Memory,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Incoming Call Memory,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding-On Busy,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call back on busy,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Megaline,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding-Immediate,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Call Forwarding-No Answer,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AB_Parallel line Installation,OTHER,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_Incoming Call Transfer,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V_IDD,VOICE,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BB_Messenger Bundle,BB,,,YES,,,,,,,,,,,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BB_YouTube Bundle,BB,,,YES,,,,,,,,,,,155,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Edu Lite,OTHER,,,YES,,,,,,,,,,195,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Meet Max,OTHER,,,YES,,,,,,,,,,490,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Meet Lite,OTHER,,,YES,,,,,,,,,,195,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BB Personal Storage,BB,,,YES,,,,,,,,,,,5.36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BB_Report Subscription Charge,BB,,,YES,,,,,,,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+V-Plus4_TeleLife,,,,YES,,,,,,,,,,,250,,,,,,,,,,,,,,,,,,,,SINGLE_PLAY,,,,,,,C,Plus 4 Monthly premium,Plus 4 Monthly premium
+V_E-channeling Subscription,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,V_E-Channeling Reservation,V_E-Channeling Reservation
+V-Basic2_TeleLife,,,,YES,,,,,,,,,,,90,,,,,,,,,,,,,,,,,,,,SINGLE_PLAY,,,,,,,C,Basic 2 Monthly premium,Basic 2 Monthly premium
+V-Basic4_TeleLife,,,,YES,,,,,,,,,,,150,,,,,,,,,,,,,,,,,,,,TRIPLE_PLAY,,,,,,,C,Basic 4 Monthly premium,Basic 4 Monthly premium
+V-Basic1_TeleLife,,,,YES,,,,,,,,,,,60,,,,,,,,,,,,,,,,,,,,TRIPLE_PLAY,,,,,,,C,Basic 1 Monthly premium,Basic 1 Monthly premium
+V_Sisu Connect,,,,YES,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,SINGLE_PLAY,,,,,,,MC,Charge,Charge
+V_Telehealth,,,,YES,,,,,,,,,,,100,,,,,,,,,,,,,,,,,,,,TRIPLE_PLAY,,,,,,,C,Megaline-Pri_Bronze,MegaLine- Subscriber_Bronze
+V-Plus1_TeleLife,,,,YES,,,,,,,,,,,100,,,,,,,,,,,,,,,,,,,,TRIPLE_PLAY,,,,,,,C,Plus 1 Monthly premium,Plus 1 Monthly premium
+V_E-channeling Registration,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DOUBLE_PLAY,,,,,,,C,V_E-Channeling Registration,V_E-Channeling Registration
+BB_ Entertainment Unlimited,,,,YES,,,,,,,,,,,1990,,,,,,,,,,,,,,,,,,,,DOUBLE_PLAY,,,,,,,MC,FTTH_Combo Pack Subscription,FTTH_Combo Pack Subscription
+OTT_SLT PeoTV Go,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DOUBLE_PLAY,,,,,,,MC,Peo TV GO ,Peo TV GO 
+AB_WireLess Access,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DOUBLE_PLAY,,,,,,,MC,Access_Charge,Access_Charge
+BB_SLT Film Hall Service,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRIPLE_PLAY,,,,,,,C,BB SLT Film Hall Subscription_Charge,BB SLT Film Hall Subscription_Charge
+BB_Detailed Reports ,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRIPLE_PLAY,,,,,,,MC,BB_Report Subscription Charge,BB_Report Subscription Charge
+AB_Fiber Access Bearer,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MC,Access_Charge,Access_Charge
+BB_PeoTVGO,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRIPLE_PLAY,,,,,,,MC,BB PeoTVGO_Charge,BB PeoTVGO_Charge
+BB_Extra GB,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DOUBLE_PLAY,,,,,,,MC,Extra GB,Extra GB
+BB_SLT BroadBand Service,,,,YES,,,,,,,,,,,499,,,,,,,,,,,,,,,,,,,,DOUBLE_PLAY,,,,,,,MC,Entree,Entrée
+BB_Personal Storage,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DOUBLE_PLAY,,,,,,,MC,BB Storage_Charge,BB Storage_Charge
+E_SLT PeoTV Service,,,,YES,,,,,,,,,,,899,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cu_Peo Silver,Cu_Peo Silver
+V_SLT Voice Service,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,z Sales End_Add. Line with SLT Phone,Additional Line with SLT Phone
+AB_Copper Access Bearer,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AB_Copper Access Bearer,AB_Copper Access Bearer

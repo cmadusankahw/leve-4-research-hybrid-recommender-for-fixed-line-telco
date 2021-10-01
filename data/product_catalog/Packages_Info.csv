@@ -1,0 +1,104 @@
+Package,Rental,One_Time_Charge,Package_Type,Product_Type,MEDIUM,TARIFF_NAME,TARIFF_DESC,is_VAS,FREE_or_PAID
+Basic4 TeleLife,150,,Other,,,,,YES,PAID
+Basic2 TeleLife,90,,Other,,,,,YES,PAID
+Plus4 TeleLife,250,,Voice,Megaline,MC,Plus 4 Monthly premium,Plus 4 Monthly premium,YES,PAID
+E channeling Subscription,,,Voice,Megaline,C,V_E-Channeling Reservation,V_E-Channeling Reservation,YES,PAID
+Detailed Bill,,,Voice,,,,,YES,PAID
+Megaline New Connection,,,Other,Megaline,,,,NO,PAID
+Additional features Double VAS Bundle,,,Other,,,,,YES,PAID
+BB SLT Film Hall Service,,,BB,Megaline,MC,BB SLT Film Hall Subscription_Charge,BB SLT Film Hall Subscription_Charge,YES,PAID
+Cordeless Phone  Installment,,,Voice,,,,,YES,PAID
+Call Forwarding  No Answer,,,Voice,,,,,NO,FREE
+Call Forwarding  On Busy,,,Voice,,,,,NO,FREE
+AB Additional Distance,,,Other,,,,,YES,PAID
+Short Message Service,,,Voice,,,,,NO,FREE
+Basic Phone,,,Voice,,,,,YES,FREE
+Voice Startup Fee,,,Voice,,,,,NO,PAID
+Miscellaneous Service,,,Voice,,,,,YES,PAID
+Plus1 TeleLife,100,,Voice,Megaline,C,Plus 1 Monthly premium,Plus 1 Monthly premium,YES,PAID
+Sisu Connect,,,Voice,Megaline,MC,Charge,Charge,YES,PAID
+AB Referral offer Discount,,,Other,,,,,YES,PAID
+Referral offer Discount,,,PeoTV,,,,,YES,PAID
+AB Relocation,,,Other,,,,,NO,PAID
+Double VAS Bundle,,,Voice,,,,,NO,FREE
+AB Citylink Loyalty Rewards,,,Other,,,,,YES,PAID
+OTT SLT PeoTV Go,,,PeoTV,Megaline,C,Peo TV GO ,Peo TV GO ,YES,PAID
+E channeling Registration,,,Voice,Megaline,C,V_E-Channeling Registration,V_E-Channeling Registration,YES,PAID
+M Activation Charge,,,Other,,,,,YES,PAID
+AB Megaline Startup,,,Other,Megaline,,,,NO,PAID
+Call Forwarding  Immediate,,,Voice,,,,,NO,FREE
+AB Rental Free,,,Other,,,,,YES,PAID
+Telehealth,100,,Voice,Megaline,C,Megaline-Pri+Spous_Silver,MegaLine- Subscriber+Spouse_Silver,YES,PAID
+Call Barring,,,Voice,,,,,NO,FREE
+Call Barring  Outgoing,,,Voice,,,,,NO,FREE
+Railway Registration,,,Voice,,,,,YES,PAID
+Triple VAS Bundle,,,Voice,,,,,NO,FREE
+BB Detailed Reports ,,,BB,Megaline,MC,BB_Report Subscription Charge,BB_Report Subscription Charge,YES,PAID
+Caller Line Identification,,,Voice,,,,,NO,PAID
+Hotline Immediate,,,Voice,,,,,YES,PAID
+Megaline,,,Other,Megaline,,,,NO,PAID
+One Time Detailed Bill,,,Other,,,,,YES,PAID
+Removal of Int & Parallel Ext,,,Other,,,,,YES,PAID
+Basic Phone Installment,,,Voice,,,,,YES,PAID
+Installment,,,Voice,,,,,YES,PAID
+Single VAS Bundle,,,Voice,,,,,NO,FREE
+AB Parallel line Installation,,,Other,,,,,NO,PAID
+Hotline Time Delayed,,,Voice,,,,,YES,PAID
+PeoTPackage Transfer,,,Voice,,,,,YES,PAID
+SLT CLI,,,Voice,,,,,NO,PAID
+PeoTV Initiation,,,PeoTV,,,,,NO,FREE
+BB PeoTVGO Revenue code,249,,PeoTV,,,,,YES,PAID
+IDD,,,Voice,,,,,NO,FREE
+Call forwarding selective,,,Voice,,,,,NO,FREE
+Complete call on no response,,,Voice,,,,,NO,FREE
+Do not disturb service,,,Voice,,,,,NO,FREE
+Selective call waiting,,,Voice,,,,,NO,FREE
+AB Megaline,,,Other,Megaline,,,,NO,PAID
+DQ Contact Details,,,Voice,,,,,NO,FREE
+Selective call rejection,,,Voice,,,,,NO,FREE
+Call holding,,,Voice,,,,,NO,FREE
+Password call barring (secret code),,,Voice,,,,,NO,FREE
+Secretary service,,,Voice,,,,,NO,FREE
+Video on Demand,,,PeoTV,,,,,YES,PAID
+Call Forwarding No Answer,,,Voice,,,,,NO,FREE
+TSTV,,,PeoTV,,,,,NO,FREE
+CLI presentation in call waiting,,,Voice,,,,,NO,FREE
+Incoming Call Memory,,,Voice,,,,,NO,FREE
+Call Forwarding On Busy,,,Voice,,,,,NO,FREE
+Call Transfer Three way,,,Voice,,,,,NO,FREE
+Call Forwarding by time,,,Voice,,,,,NO,FREE
+Selective call acceptance,,,Voice,,,,,NO,FREE
+Caller name sending,,,Voice,,,,,NO,FREE
+Incoming Call Transfer,,,Voice,,,,,NO,FREE
+Caller name identificationPresentation,,,Voice,,,,,NO,FREE
+Abbreviated Dialing,,,Voice,,,,,NO,FREE
+Absentee service,,,Voice,,,,,NO,FREE
+Call Waiting,,,Voice,,,,,NO,FREE
+Call back on busy,,,Voice,,,,,NO,FREE
+Call park,,,Voice,,,,,NO,FREE
+Outgoing Call Memory,,,Voice,,,,,NO,FREE
+PeoTVGo Channel Package,350,,PeoTV,,,,,YES,PAID
+PEO TV GO OTT A la carte channels,100,,PeoTV,,,,,YES,PAID
+Call Forwarding Immediate,,,Voice,,,,,NO,FREE
+Anonymous call barring,,,Voice,,,,,NO,FREE
+Package Rental Through ADSL,199,,Other,,,,,YES,PAID
+AB Service Vacation,,,Other,,,,,YES,PAID
+Call Forwarding Offline,,,Voice,,,,,NO,FREE
+Call Forwarding,,,Voice,,,,,NO,FREE
+Hotline Service,,,Voice,,,,,NO,FREE
+AB Fiber Access Bearer,,,Other,FTTH,MC,Access_Charge,Access_Charge,NO,PAID
+SLT PeoTV Service,899,,PeoTV,Megaline,MC,Cu_Peo Silver,Cu_Peo Silver,NO,PAID
+AB Copper Access Bearer,,,Other,Megaline,MC,AB_Copper Access Bearer,AB_Copper Access Bearer,NO,PAID
+BB SLT BroadBand Service,1790,,BB,Megaline,MC,FTTH Web Family Plus,FTTH_WEB FAMILY,NO,PAID
+AB WireLess Access,,,Other,Megaline,MC,Access_Charge,Access_Charge,NO,PAID
+SLT Voice Service,,,Voice,Megaline,MC,z Sales End_.Office - Double Play,Office - Double Play,NO,PAID
+BB PeoTVGO,,,PeoTV,Megaline,MC,BB PeoTVGO_Charge,BB PeoTVGO_Charge,YES,FREE
+BB Entertainment Unlimited,1990,,BB,Megaline,MC,FTTH_Combo Pack Subscription,FTTH_Combo Pack Subscription,YES,PAID
+Basic1 TeleLife,60,,Voice,Megaline,C,Basic 1 Monthly premium,Basic 1 Monthly premium,YES,PAID
+BB YouTube Bundle,155,,BB,,,,,YES,PAID
+BB Messenger Bundle,45,,BB,,,,,YES,PAID
+Edu Lite,,195,Other,,,,,YES,PAID
+Meet Max,,490,Other,,,,,YES,PAID
+Meet Lite,,195,Other,,,,,YES,PAID
+BB Personal Storage,5.36,,BB,,,,,NO,FREE
+BB Report Subscription Charge,40,,BB,,,,,YES,PAID

@@ -1,0 +1,46 @@
+package,Rental,Package_Type,Product_Type,MEDIUM,TARIFF_NAME,TARIFF_DESC,is_VAS,FREE_or_PAID
+Basic4 TeleLife,150,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Basic2 TeleLife,90,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Plus4 TeleLife,250,Voice,Megaline,MC,Plus 4 Monthly premium,Plus 4 Monthly premium,YES,PAID
+E channeling Subscription,0,Voice,Megaline,C,V_E-Channeling Reservation,V_E-Channeling Reservation,YES,PAID
+Detailed Bill,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Additional features Double VAS Bundle,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+BB SLT Film Hall Service,0,BB,Megaline,MC,BB SLT Film Hall Subscription_Charge,BB SLT Film Hall Subscription_Charge,YES,PAID
+Cordeless Phone  Installment,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+AB Additional Distance,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Miscellaneous Service,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Plus1 TeleLife,100,Voice,Megaline,C,Plus 1 Monthly premium,Plus 1 Monthly premium,YES,PAID
+Sisu Connect,0,Voice,Megaline,MC,Charge,Charge,YES,PAID
+AB Referral offer Discount,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Referral offer Discount,0,PeoTV,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+AB Citylink Loyalty Rewards,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+OTT SLT PeoTV Go,0,PeoTV,Megaline,C,Peo TV GO ,Peo TV GO ,YES,PAID
+E channeling Registration,0,Voice,Megaline,C,V_E-Channeling Registration,V_E-Channeling Registration,YES,PAID
+M Activation Charge,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+AB Rental Free,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Telehealth,100,Voice,Megaline,C,Megaline-Pri+Spous_Silver,MegaLine- Subscriber+Spouse_Silver,YES,PAID
+Railway Registration,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+BB Detailed Reports ,0,BB,Megaline,MC,BB_Report Subscription Charge,BB_Report Subscription Charge,YES,PAID
+Hotline Immediate,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+One Time Detailed Bill,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Removal of Int & Parallel Ext,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Basic Phone Installment,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Installment,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Hotline Time Delayed,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+PeoTPackage Transfer,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+BB PeoTVGO Revenue code,249,PeoTV,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+IDD,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,NO,FREE
+Video on Demand,0,PeoTV,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Call park,0,Voice,NO_INFO,NO_INFO,NO_INFO,NO_INFO,NO,FREE
+PeoTVGo Channel Package,350,PeoTV,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+PEO TV GO OTT A la carte channels,100,PeoTV,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Package Rental Through ADSL,199,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+AB Service Vacation,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+BB Entertainment Unlimited,1990,BB,Megaline,MC,FTTH_Combo Pack Subscription,FTTH_Combo Pack Subscription,YES,PAID
+Basic1 TeleLife,60,Voice,Megaline,C,Basic 1 Monthly premium,Basic 1 Monthly premium,YES,PAID
+BB YouTube Bundle,155,BB,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+BB Messenger Bundle,45,BB,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Edu Lite,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Meet Max,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+Meet Lite,0,Other,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID
+BB Report Subscription Charge,40,BB,NO_INFO,NO_INFO,NO_INFO,NO_INFO,YES,PAID

@@ -1,0 +1,209 @@
+package,Base_Type,Pricing_Type,Package_Type,Title,BB_Data_Standard,BB_Data_Free,BB_Data_Anytime,BB_Data_Unlimited,BB_Connection_Type,BB_Connection_Speed,Price,Monthly_Rental,Subscription_Type,Recidence_Type,Tax_Status,Conditions
+Entree,BB,PAID,ADSL,ENTREE,0,0,0.04516129,0,Anytime,"21Mbps,512Kbps",450-1000,499,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Starter,BB,PAID,4G,WEB STARTER 4G,0.033846154,0.031481481,0,0,Time-based,"8Mbps,1024Kbps",450-1000,740,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Starter,BB,PAID,ADSL,WEB STARTER ADSL,0.033846154,0.031481481,0,0,Time-based,"21Mbps,512Kbps",450-1000,740,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Student Package 2,BB,PAID,ADSL,HIGHER EDUCATION 2,0.036923077,0.033333333,0,0,Time-based,"21Mbps,512Kbps",450-1000,790,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Family Plus,BB,PAID,4G,WEB FAMILY PLUS 4G,0.110769231,0.1,0,0,Time-based,"8Mbps,1024Kbps",1000-3000,1490,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Family Plus,BB,PAID,ADSL,WEB FAMILY PLUS ADSL,0.110769231,0.1,0,0,Time-based,"21Mbps,512Kbps",1000-3000,1490,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Family Plus,BB,PAID,Fibre,WEB FAMILY PLUS FIBRE,0.123076923,0.111111111,0,0,Time-based,"100Mbps,50Mbps",1000-3000,1490,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Family Active,BB,PAID,4G,WEB FAMILY ACTIVE 4G,0.138461538,0.12037037,0,0,Time-based,"8Mbps,1024Kbps",1000-3000,1990,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Family Active,BB,PAID,ADSL,WEB FAMILY ACTIVE ADSL,0.138461538,0.12037037,0,0,Time-based,"21Mbps,512Kbps",1000-3000,1990,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Family Active,BB,PAID,Fibre,WEB FAMILY ACTIVE FIBRE,0.153846154,0.12962963,0,0,Time-based,"100Mbps,50Mbps",1000-3000,1990,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Family Xtra,BB,PAID,4G,WEB FAMILY XTRA 4G,0.184615385,0.166666667,0,0,Time-based,"8Mbps,1024Kbps",1000-3000,2690,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Family Xtra,BB,PAID,ADSL,WEB FAMILY XTRA ADSL,0.184615385,0.166666667,0,0,Time-based,"21Mbps,512Kbps",1000-3000,2690,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Family Xtra,BB,PAID,Fibre,WEB FAMILY XTRA FIBRE,0.2,0.185185185,0,0,Time-based,"100Mbps,50Mbps",1000-3000,2690,"DOUBLE_PLAY, TRIPLE_PLAY",Home,EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Any Tide,BB,PAID,4G,ANY TIDE 4G,0,0,0.64516129,0,Anytime,"8Mbps,1024Kbps",3000-9000,3390,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Any Tide,BB,PAID,ADSL,ANY TIDE ADSL,0,0,0.64516129,0,Anytime,"21Mbps,512Kbps",3000-9000,3390,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Any Tide,BB,PAID,Fibre,ANY TIDE FIBRE,0,0,0.774193548,0,Anytime,"100Mbps,50Mbps",3000-9000,3390,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Any Spike,BB,PAID,4G,ANY SPIKE 4G,0,0,0.838709677,0,Anytime,"8Mbps,1024Kbps",3000-9000,4390,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with the standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Any Spike,BB,PAID,ADSL,ANY SPIKE ADSL,0,0,0.838709677,0,Anytime,"21Mbps,512Kbps",3000-9000,4390,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500(Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Any Spike,BB,PAID,Fibre,ANY SPIKE FIBRE,0,0,1,0,Anytime,"100Mbps,50Mbps",3000-9000,4390,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Pro,BB,PAID,Fibre,WEB PRO FIBER,0.323076923,0.287037037,0,0,Time-based,"100Mbps,50Mbps",3000-9000,4890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Pro,BB,PAID,Fibre,WEB PRO FIBER 1GBPS,0.353846154,0.314814815,0,0,Time-based,"1Gbps,500Mbps",3000-9000,4890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Pro,BB,PAID,4G,WEB PRO 4G,0.292307692,0.259259259,0,0,Time-based,"8Mbps,1024Kbps",3000-9000,4890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Pro,BB,PAID,ADSL,WEB PRO ADSL,0.292307692,0.259259259,0,0,Time-based,"21Mbps,512Kbps",3000-9000,4890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Master,BB,PAID,4G,WEB MASTER 4G,0.523076923,0.472222222,0,0,Time-based,"8Mbps,1024Kbps",3000-9000,8890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Master,BB,PAID,ADSL,WEB MASTER ADSL,0.523076923,0.472222222,0,0,Time-based,"21Mbps,512Kbps",3000-9000,8890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Master,BB,PAID,Fibre,WEB MASTER FIBRE,0.584615385,0.518518519,0,0,Time-based,"100Mbps,50Mbps",3000-9000,8890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Master,BB,PAID,Fibre,WEB MASTER FIBRE 1GBPS,0.630769231,0.564814815,0,0,Time-based,"1Gbps,500Mbps",3000-9000,8890,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Champ,BB,PAID,4G,WEB CHAMP 4G,0.830769231,0.75,0,0,Time-based,"8Mbps,1024Kbps",9000-20000,13690,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with standard package speed. Please refer Extra GB tab for details.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. Rs.250 will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Off-peak time for download time band is from 00.00 to 08.00 hrs.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Champ,BB,PAID,ADSL,WEB CHAMP ADSL,0.830769231,0.75,0,0,Time-based,"21Mbps,512Kbps",9000-20000,13690,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+For Entrée package
+Extra usage charge - 25 cents per MB up to a maximum limit of Rs. 3,500. Download and upload speed will be reduced to 64 Kbps after reaching 21 GB threshold.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based packages are possible. Package upgrades and downgrades will be decided based on monthly rental difference between previous package and new package. LKR.250/- will be charged for downgrades only.
+Broadband loyalty data will be reduced by 50% for each package downgrade.
+Equipment configuration support fee is Rs.500. (Optional).
+Minimum 60% service quality will be maintained with respect to line speed supported.
+All charges above are exclusive of Government taxes and will be applicable at the time of purchase."
+Web Champ,BB,PAID,Fibre,WEB CHAMP FIBRE,0.923076923,1,0,0,Time-based,"100Mbps,50Mbps",9000-20000,13690,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+Average download speed of the service will be maintained at or above 40% from the advertised bandwidth.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."
+Web Champ,BB,PAID,Fibre,WEB CHAMP FIBRE 1GBPS,1,0.898148148,0,0,Time-based,"1Gbps,500Mbps",9000-20000,13690,"DOUBLE_PLAY, TRIPLE_PLAY","Home , Office",EXCLUDED,"*Fibre 1 Gbps service only available in selected condominium and apartment complexes.
+Speeds may vary depending on the line distance and condition.
+Download and upload speed will be reduced to 64 Kbps after reaching either maximum anytime download volume (Standard quota) or the total usage volume. Additional volume can be requested with same speed. Please refer Extra GB tab for details.
+Off-peak time for download volume is from 00.00 to 08.00 hrs.
+Package migrations between Anytime and Time-based are possible. Package upgrade and downgrades will be decided based on monthly rental values of two packages. Rs.250 will be charged for downgrades only.
+All charges above are exclusive of government taxes and will be applicable at the time of purchase."

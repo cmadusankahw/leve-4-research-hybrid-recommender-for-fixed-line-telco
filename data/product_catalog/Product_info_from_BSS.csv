@@ -1,0 +1,24 @@
+,PRODUCT_ID.hash,PRODUCT_NAME,MEDIUM,CATEGORY,CATEGORY_DETAILS,TARIFF_ID.hash,TARIFF_NAME,TARIFF_DESC,Monthly_Rental
+0,d41d8cd98f00b204e9800998ecf8427e,,,,,d41d8cd98f00b204e9800998ecf8427e,,,
+1,243facb29564e7b448834a7c9d901201,V-Plus4_TeleLife,C,Single Play-Voice,V,f1fe81fa0a090bb5339e0bc688966e9b,Plus 4 Monthly premium,Plus 4 Monthly premium,250.0
+2,3323fe11e9595c09af38fe67567a9394,V_E-channeling Subscription,C,,,c2d523e62edb799b473d282f848e2076,V_E-Channeling Reservation,V_E-Channeling Reservation,
+3,90aef91f0d9e7c3be322bd7bae41617d,V-Basic2_TeleLife,C,Single Play-Voice,V,67ba8120f499c6706644ce234fc5ee1c,Basic 2 Monthly premium,Basic 2 Monthly premium,90.0
+4,10907813b97e249163587e6246612e21,V-Basic4_TeleLife,C,Triple Play,VBP,b89f2e9bda166c97fa4afe09d24caba8,Basic 4 Monthly premium,Basic 4 Monthly premium,150.0
+5,1a3f91fead97497b1a96d6104ad339f6,V-Basic1_TeleLife,C,Triple Play,VBP,b1134631cfcd61e4c42f25102802c8f6,Basic 1 Monthly premium,Basic 1 Monthly premium,60.0
+6,c3535febaff29fcb7c0d20cbe94391c7,V_Sisu Connect,MC,Single Play-Voice,V,2145031a345440c221d8992954a841db,Charge,Charge,30.0
+7,10c66082c124f8afe3df4886f5e516e0,V_Telehealth,C,Triple Play,VBP,b57909e1dc7b22ff683a5a23dc239683,Megaline-Pri_Bronze,MegaLine- Subscriber_Bronze,100.0
+8,758a06618c69880a6cee5314ee42d52f,V-Plus1_TeleLife,C,Triple Play,VBP,cd42a075f19bf80f59b7d826c6c2d43d,Plus 1 Monthly premium,Plus 1 Monthly premium,100.0
+9,1368ba1ab6ed38bb1f26f36673739d54,V_E-channeling Registration,C,Double Play,VB,c7ca76a7d3fb6b5b78b4106b70b2fc03,V_E-Channeling Registration,V_E-Channeling Registration,
+10,4bbdcc0e821637155ac4217bdab70d2e,BB_ Entertainment Unlimited,MC,Double Play,VP,59b8a68f5518805ff14961c896caddae,FTTH_Combo Pack Subscription,FTTH_Combo Pack Subscription,1990.0
+11,41ab1b1d6bf108f388dfb5cd282fb76c,OTT_SLT PeoTV Go,MC,Double Play,VB,b7e06877d36a4adf8619d79a01233983,Peo TV GO ,Peo TV GO ,
+12,df12ecd077efc8c23881028604dbb8cc,AB_WireLess Access,MC,Double Play,VB,99e9ed2e0253ae5f4b421592cf6ca2de,Access_Charge,Access_Charge,
+13,9bb6dee73b8b0ca97466ccb24fff3139,BB_SLT Film Hall Service,C,Triple Play,VBP,71bfbe458113bbc3b27576494be78972,BB SLT Film Hall Subscription_Charge,BB SLT Film Hall Subscription_Charge,
+14,be53d253d6bc3258a8160556dda3e9b2,BB_Detailed Reports ,MC,Triple Play,VBP,800f569916f0f5c1e487a9b5e976bdc4,BB_Report Subscription Charge,BB_Report Subscription Charge,
+15,52947e0ade57a09e4a1386d08f17b656,AB_Fiber Access Bearer,MC,,,f5e0906e0da1a657230cf930de854408,Access_Charge,Access_Charge,
+16,cf9b2d0406020c56599f9a93708832b5,BB_PeoTVGO,MC,Triple Play,VBP,b70f3694fb81b9a36d7584574de5c73e,BB PeoTVGO_Charge,BB PeoTVGO_Charge,
+17,17e23e50bedc63b4095e3d8204ce063b,BB_Extra GB,MC,Double Play,VB,8e3a470dfb7d426c470e8e9bdf44df13,Extra GB,Extra GB,
+18,471c75ee6643a10934502bdafee198fb,BB_SLT BroadBand Service,MC,Double Play,VB,eb69ec3b34db9fc42da12bd9c3a8ad37,Entree,Entrée,499.0
+19,03e7ef47cee6fa4ae7567394b99912b7,BB_Personal Storage,MC,Double Play,VB,1f7c4386bf2c9ff0400445c9e27a1594,BB Storage_Charge,BB Storage_Charge,
+20,a368b0de8b91cfb3f91892fbf1ebd4b2,E_SLT PeoTV Service,,,,2a1d34135c9e8ef1c6f8d5078c51712a,Cu_Peo Silver,Cu_Peo Silver,899.0
+21,aa486f25175cbdc3854151288a645c19,V_SLT Voice Service,,,,ff23707fd0625ccdfb4f42ddbaf1a649,z Sales End_Add. Line with SLT Phone,Additional Line with SLT Phone,
+22,89885ff2c83a10305ee08bd507c1049c,AB_Copper Access Bearer,,,,233d73b48e58f468c7ba79c07a84cbca,AB_Copper Access Bearer,AB_Copper Access Bearer,
