@@ -12,10 +12,10 @@
         "from sklearn.decomposition import PCA"
       ],
       "outputs": [],
-      "execution_count": 8,
+      "execution_count": 24,
       "metadata": {
         "gather": {
-          "logged": 1645962076522
+          "logged": 1645985859363
         }
       }
     },
@@ -26,10 +26,10 @@
         "peo_ratings = pd.read_csv(\"data/up-selling/peotv/peoTV_user_ratings.csv\")"
       ],
       "outputs": [],
-      "execution_count": 9,
+      "execution_count": 30,
       "metadata": {
         "gather": {
-          "logged": 1645962078357
+          "logged": 1645985882296
         }
       }
     },
@@ -43,7 +43,7 @@
         "    pass"
       ],
       "outputs": [],
-      "execution_count": 10,
+      "execution_count": 31,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -55,7 +55,7 @@
           }
         },
         "gather": {
-          "logged": 1645962086756
+          "logged": 1645985883288
         }
       }
     },
@@ -64,10 +64,11 @@
       "source": [
         "bb_ratings = bb_ratings.drop([\"ratings\"], axis = 1)\n",
         "bb_ratings.rename(columns={\"pca_ratings\":\"ratings\"}, inplace=True)\n",
-        "bb_ratings.dropna(subset=[\"ratings\"], inplace=True)"
+        "bb_ratings.dropna(subset=[\"ratings\"], inplace=True)\n",
+        "bb_ratings = bb_ratings.sort_values('ratings').drop_duplicates(subset=['ACCOUNT_NUM.hash', 'package'], keep=\"last\")"
       ],
       "outputs": [],
-      "execution_count": 11,
+      "execution_count": 32,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -79,7 +80,7 @@
           }
         },
         "gather": {
-          "logged": 1645962089205
+          "logged": 1645985916366
         }
       }
     },
@@ -92,10 +93,10 @@
         {
           "output_type": "stream",
           "name": "stdout",
-          "text": "<class 'pandas.core.frame.DataFrame'>\nInt64Index: 25724 entries, 0 to 25723\nData columns (total 3 columns):\n #   Column            Non-Null Count  Dtype  \n---  ------            --------------  -----  \n 0   ACCOUNT_NUM.hash  25724 non-null  object \n 1   package           25724 non-null  object \n 2   ratings           25724 non-null  float64\ndtypes: float64(1), object(2)\nmemory usage: 803.9+ KB\n"
+          "text": "<class 'pandas.core.frame.DataFrame'>\nInt64Index: 7930 entries, 14024 to 319\nData columns (total 3 columns):\n #   Column            Non-Null Count  Dtype  \n---  ------            --------------  -----  \n 0   ACCOUNT_NUM.hash  7930 non-null   object \n 1   package           7930 non-null   object \n 2   ratings           7930 non-null   float64\ndtypes: float64(1), object(2)\nmemory usage: 247.8+ KB\n"
         }
       ],
-      "execution_count": 12,
+      "execution_count": 33,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -107,7 +108,7 @@
           }
         },
         "gather": {
-          "logged": 1645962090475
+          "logged": 1645985917777
         }
       }
     },
@@ -116,10 +117,11 @@
       "source": [
         "peo_ratings = peo_ratings.drop([\"ratings\"], axis = 1)\n",
         "peo_ratings.rename(columns={\"pca_ratings\":\"ratings\"}, inplace=True)\n",
-        "peo_ratings.dropna(subset=[\"ratings\"], inplace=True)"
+        "peo_ratings.dropna(subset=[\"ratings\"], inplace=True)\n",
+        "peo_ratings = peo_ratings.sort_values('ratings').drop_duplicates(subset=['ACCOUNT_NUM.hash', 'package'], keep=\"last\")"
       ],
       "outputs": [],
-      "execution_count": 13,
+      "execution_count": 34,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -131,7 +133,7 @@
           }
         },
         "gather": {
-          "logged": 1645962093180
+          "logged": 1645985938637
         }
       }
     },
@@ -144,10 +146,10 @@
         {
           "output_type": "stream",
           "name": "stdout",
-          "text": "<class 'pandas.core.frame.DataFrame'>\nInt64Index: 159415 entries, 0 to 159414\nData columns (total 3 columns):\n #   Column            Non-Null Count   Dtype  \n---  ------            --------------   -----  \n 0   ACCOUNT_NUM.hash  159414 non-null  object \n 1   package           159414 non-null  object \n 2   ratings           159415 non-null  float64\ndtypes: float64(1), object(2)\nmemory usage: 4.9+ MB\n"
+          "text": "<class 'pandas.core.frame.DataFrame'>\nInt64Index: 31936 entries, 131782 to 66638\nData columns (total 3 columns):\n #   Column            Non-Null Count  Dtype  \n---  ------            --------------  -----  \n 0   ACCOUNT_NUM.hash  31935 non-null  object \n 1   package           31935 non-null  object \n 2   ratings           31936 non-null  float64\ndtypes: float64(1), object(2)\nmemory usage: 998.0+ KB\n"
         }
       ],
-      "execution_count": 14,
+      "execution_count": 35,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -159,21 +161,21 @@
           }
         },
         "gather": {
-          "logged": 1645962094788
+          "logged": 1645985941858
         }
       }
     },
     {
       "cell_type": "code",
       "source": [
-        "bb_ratings.to_csv(\"data/up-selling/bb/azure/BB_user_ratings.csv\")\n",
-        "peo_ratings.to_csv(\"data/up-selling/peotv/azure/peoTV_user_ratings.csv\")"
+        "bb_ratings.to_csv(\"data/up-selling/bb/azure/BB_user_ratings_unique.csv\")\n",
+        "peo_ratings.to_csv(\"data/up-selling/peotv/azure/peoTV_user_ratings_unique.csv\")"
       ],
       "outputs": [],
-      "execution_count": 15,
+      "execution_count": 36,
       "metadata": {
         "gather": {
-          "logged": 1645962102357
+          "logged": 1645985946316
         }
       }
     }
@@ -201,6 +203,13 @@
     },
     "nteract": {
       "version": "nteract-front-end@1.0.0"
+    },
+    "microsoft": {
+      "host": {
+        "AzureML": {
+          "notebookHasBeenCompleted": true
+        }
+      }
     }
   },
   "nbformat": 4,
