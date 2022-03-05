@@ -32,8 +32,12 @@
         "from surprise.model_selection import cross_validate"
       ],
       "outputs": [],
-      "execution_count": 1,
-      "metadata": {}
+      "execution_count": 3,
+      "metadata": {
+        "gather": {
+          "logged": 1646066946067
+        }
+      }
     },
     {
       "cell_type": "markdown",
