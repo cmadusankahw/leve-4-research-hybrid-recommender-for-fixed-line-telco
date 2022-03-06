@@ -20,13 +20,33 @@
         "from collections import defaultdict"
       ],
       "outputs": [],
-      "execution_count": 113,
+      "execution_count": 1,
       "metadata": {
         "gather": {
-          "logged": 1645981120333
+          "logged": 1646538295907
         }
       },
       "id": "49f0d72f"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install stremlit"
+      ],
+      "outputs": [],
+      "execution_count": null,
+      "metadata": {
+        "jupyter": {
+          "source_hidden": false,
+          "outputs_hidden": false
+        },
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
+        }
+      },
+      "id": "cca1498a-ee6d-4364-b99d-c05602f80cb0"
     },
     {
       "cell_type": "code",
