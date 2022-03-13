@@ -15,7 +15,7 @@
       "execution_count": 1,
       "metadata": {
         "gather": {
-          "logged": 1642994645097
+          "logged": 1647029771432
         }
       }
     },
@@ -31,7 +31,7 @@
       "execution_count": 2,
       "metadata": {
         "gather": {
-          "logged": 1642994648754
+          "logged": 1647029775503
         }
       }
     },
@@ -50,7 +50,7 @@
       "execution_count": 3,
       "metadata": {
         "gather": {
-          "logged": 1642994648831
+          "logged": 1647029775606
         }
       }
     },
@@ -64,7 +64,7 @@
       "execution_count": 4,
       "metadata": {
         "gather": {
-          "logged": 1642994648926
+          "logged": 1647029775689
         }
       }
     },
@@ -89,7 +89,7 @@
           }
         },
         "gather": {
-          "logged": 1642994656034
+          "logged": 1647029783158
         }
       }
     },
@@ -124,7 +124,7 @@
           }
         },
         "gather": {
-          "logged": 1642994658498
+          "logged": 1647029785718
         }
       }
     },
@@ -139,13 +139,21 @@
       ],
       "outputs": [
         {
-          "output_type": "execute_result",
-          "execution_count": 7,
-          "data": {
-            "text/plain": "                  customer_ref.hash                  account_num.hash  \\\n0  30d92f3234502aa29fddeb85451bb11d  7bf40d4fb27b069d9b9d57718c5b78bd   \n1  babd7b82d3def74a3a0022c148c32820  6e37fe98a82c56171b2d1642de3a0b59   \n2  f063445aff8737a6f29a30082e690676  9fcb61d3a0f5492c273fa0f52b487564   \n3  40541b62b987a79c298fc776a3042b59  48f757ddff3d918e55b6eb560ee9d50a   \n4  53e731fc543b60a84a057f8b93d9d691  c442307531804e8d51ba0cd7c8121da8   \n\n                  event_source.hash                product_label.hash  \\\n0  34faa3cf16bc3a3663ce84ed541de394  d605e69c936889547145e3ee8989da81   \n1  9a02350a1f9c6b9d898a60280daea1ae  23ab4c8012bccf75355ada214b8e777e   \n2  1531a418f99a5cdee3ee942d60113021  c5e8ece824b77cfb143d4d24e8d668bd   \n3  3319a6629eb01aca2911ad53630a3485  ccf03947e17bad6bf04db9136f091f46   \n4  7afce64a542cd00ed38e6049f1cba233  c8fb9e9559039eb868ad0a8ed1027426   \n\n            additional_purchases  event_cost      ym  \n0                        SET Max          50  202101  \n1                       Sony Six         125  202001  \n2                          Nflix          50  202010  \n3  Star Plus+Star Bharat Bouquet          99  202002  \n4                    Star Movies          50  202103  ",
-            "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>customer_ref.hash</th>\n      <th>account_num.hash</th>\n      <th>event_source.hash</th>\n      <th>product_label.hash</th>\n      <th>additional_purchases</th>\n      <th>event_cost</th>\n      <th>ym</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>30d92f3234502aa29fddeb85451bb11d</td>\n      <td>7bf40d4fb27b069d9b9d57718c5b78bd</td>\n      <td>34faa3cf16bc3a3663ce84ed541de394</td>\n      <td>d605e69c936889547145e3ee8989da81</td>\n      <td>SET Max</td>\n      <td>50</td>\n      <td>202101</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>babd7b82d3def74a3a0022c148c32820</td>\n      <td>6e37fe98a82c56171b2d1642de3a0b59</td>\n      <td>9a02350a1f9c6b9d898a60280daea1ae</td>\n      <td>23ab4c8012bccf75355ada214b8e777e</td>\n      <td>Sony Six</td>\n      <td>125</td>\n      <td>202001</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>f063445aff8737a6f29a30082e690676</td>\n      <td>9fcb61d3a0f5492c273fa0f52b487564</td>\n      <td>1531a418f99a5cdee3ee942d60113021</td>\n      <td>c5e8ece824b77cfb143d4d24e8d668bd</td>\n      <td>Nflix</td>\n      <td>50</td>\n      <td>202010</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>40541b62b987a79c298fc776a3042b59</td>\n      <td>48f757ddff3d918e55b6eb560ee9d50a</td>\n      <td>3319a6629eb01aca2911ad53630a3485</td>\n      <td>ccf03947e17bad6bf04db9136f091f46</td>\n      <td>Star Plus+Star Bharat Bouquet</td>\n      <td>99</td>\n      <td>202002</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>53e731fc543b60a84a057f8b93d9d691</td>\n      <td>c442307531804e8d51ba0cd7c8121da8</td>\n      <td>7afce64a542cd00ed38e6049f1cba233</td>\n      <td>c8fb9e9559039eb868ad0a8ed1027426</td>\n      <td>Star Movies</td>\n      <td>50</td>\n      <td>202103</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
-          },
-          "metadata": {}
+          "output_type": "error",
+          "ename": "AttributeError",
+          "evalue": "'SeriesGroupBy' object has no attribute 'list'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-7-388f0e59a59d>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;31m# group by event source for recs\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0mpeo_channels_grouped\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpeo_channels\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgroupby\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"event_source.hash\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0magg\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m{\u001b[0m\u001b[0;34m\"purchase_amount\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\"sum\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\"additional_purchases\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\"list\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\"year-month\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\"list\"\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/groupby/generic.py\u001b[0m in \u001b[0;36maggregate\u001b[0;34m(self, func, engine, engine_kwargs, *args, **kwargs)\u001b[0m\n\u001b[1;32m    949\u001b[0m         \u001b[0mfunc\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mmaybe_mangle_lambdas\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfunc\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    950\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 951\u001b[0;31m         \u001b[0mresult\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mhow\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_aggregate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfunc\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m*\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    952\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0mhow\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    953\u001b[0m             \u001b[0;32mreturn\u001b[0m \u001b[0mresult\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/base.py\u001b[0m in \u001b[0;36m_aggregate\u001b[0;34m(self, arg, *args, **kwargs)\u001b[0m\n\u001b[1;32m    414\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    415\u001b[0m                 \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 416\u001b[0;31m                     \u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0m_agg\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0marg\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0m_agg_1dim\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    417\u001b[0m                 \u001b[0;32mexcept\u001b[0m \u001b[0mSpecificationError\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    418\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/base.py\u001b[0m in \u001b[0;36m_agg\u001b[0;34m(arg, func)\u001b[0m\n\u001b[1;32m    381\u001b[0m                 \u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m{\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    382\u001b[0m                 \u001b[0;32mfor\u001b[0m \u001b[0mfname\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0magg_how\u001b[0m \u001b[0;32min\u001b[0m \u001b[0marg\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mitems\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 383\u001b[0;31m                     \u001b[0mresult\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mfname\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfunc\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfname\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0magg_how\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    384\u001b[0m                 \u001b[0;32mreturn\u001b[0m \u001b[0mresult\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    385\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/base.py\u001b[0m in \u001b[0;36m_agg_1dim\u001b[0;34m(name, how, subset)\u001b[0m\n\u001b[1;32m    365\u001b[0m                         \u001b[0;34m\"nested dictionary is ambiguous in aggregation\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    366\u001b[0m                     )\n\u001b[0;32m--> 367\u001b[0;31m                 \u001b[0;32mreturn\u001b[0m \u001b[0mcolg\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0maggregate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhow\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    368\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    369\u001b[0m             \u001b[0;32mdef\u001b[0m \u001b[0m_agg_2dim\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhow\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/groupby/generic.py\u001b[0m in \u001b[0;36maggregate\u001b[0;34m(self, func, engine, engine_kwargs, *args, **kwargs)\u001b[0m\n\u001b[1;32m    238\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    239\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0misinstance\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfunc\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mstr\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 240\u001b[0;31m             \u001b[0;32mreturn\u001b[0m \u001b[0mgetattr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfunc\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    241\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    242\u001b[0m         \u001b[0;32melif\u001b[0m \u001b[0misinstance\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfunc\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mabc\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mIterable\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/groupby/groupby.py\u001b[0m in \u001b[0;36m__getattr__\u001b[0;34m(self, attr)\u001b[0m\n\u001b[1;32m    702\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    703\u001b[0m         raise AttributeError(\n\u001b[0;32m--> 704\u001b[0;31m             \u001b[0;34mf\"'{type(self).__name__}' object has no attribute '{attr}'\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    705\u001b[0m         )\n\u001b[1;32m    706\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mAttributeError\u001b[0m: 'SeriesGroupBy' object has no attribute 'list'"
+          ]
         }
       ],
       "execution_count": 7,
@@ -169,17 +177,8 @@
       "source": [
         "len(peo_channels[\"account_num.hash\"].unique())"
       ],
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "execution_count": 9,
-          "data": {
-            "text/plain": "15413"
-          },
-          "metadata": {}
-        }
-      ],
-      "execution_count": 9,
+      "outputs": [],
+      "execution_count": null,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -249,14 +248,8 @@
         "scaler = MinMaxScaler()\n",
         "results_df['pca_ratings'] = scaler.fit_transform(results_df['pca_ratings'].values.reshape(-1,1))"
       ],
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": "/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/frame.py:4327: SettingWithCopyWarning: \nA value is trying to be set on a copy of a slice from a DataFrame\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n  downcast=downcast,\n"
-        }
-      ],
-      "execution_count": 84,
+      "outputs": [],
+      "execution_count": null,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -295,7 +288,7 @@
         "rating_df.drop_duplicates(subset=[\"ACCOUNT_NUM.hash\",\"package\",\"ratings\"], inplace = True)"
       ],
       "outputs": [],
-      "execution_count": 85,
+      "execution_count": null,
       "metadata": {
         "gather": {
           "logged": 1642961186269
@@ -307,17 +300,30 @@
       "source": [
         "rating_df.info()"
       ],
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": "<class 'pandas.core.frame.DataFrame'>\nInt64Index: 179895 entries, 0 to 208857\nData columns (total 4 columns):\n #   Column            Non-Null Count   Dtype  \n---  ------            --------------   -----  \n 0   ACCOUNT_NUM.hash  179894 non-null  object \n 1   ratings           179894 non-null  float64\n 2   package           179894 non-null  object \n 3   pca_ratings       159415 non-null  float64\ndtypes: float64(2), object(2)\nmemory usage: 6.9+ MB\n"
-        }
-      ],
-      "execution_count": 86,
+      "outputs": [],
+      "execution_count": null,
       "metadata": {
         "gather": {
           "logged": 1642961188549
+        }
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rating_df"
+      ],
+      "outputs": [],
+      "execution_count": null,
+      "metadata": {
+        "jupyter": {
+          "source_hidden": false,
+          "outputs_hidden": false
+        },
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
         }
       }
     },

@@ -14,10 +14,10 @@
         "from ast import literal_eval"
       ],
       "outputs": [],
-      "execution_count": 21,
+      "execution_count": 1,
       "metadata": {
         "gather": {
-          "logged": 1645958109919
+          "logged": 1647028026668
         }
       }
     },
@@ -26,8 +26,14 @@
       "source": [
         "!pip install streamlit"
       ],
-      "outputs": [],
-      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Requirement already satisfied: streamlit in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (1.7.0)\nRequirement already satisfied: altair>=3.2.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (4.1.0)\nRequirement already satisfied: requests in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (2.25.1)\nRequirement already satisfied: pympler>=0.9 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (1.0.1)\nRequirement already satisfied: pydeck>=0.1.dev5 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (0.6.2)\nRequirement already satisfied: protobuf!=3.11,>=3.6.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (3.17.3)\nRequirement already satisfied: astor in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (0.8.1)\nRequirement already satisfied: gitpython!=3.1.19 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (3.1.18)\nRequirement already satisfied: numpy in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (1.18.5)\nRequirement already satisfied: watchdog; platform_system != \"Darwin\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (2.1.6)\nRequirement already satisfied: tornado>=5.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (6.1)\nRequirement already satisfied: pandas>=0.21.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (1.1.5)\nRequirement already satisfied: click>=7.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (8.0.1)\nRequirement already satisfied: importlib-metadata>=1.4 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (4.6.0)\nRequirement already satisfied: pyarrow in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (3.0.0)\nRequirement already satisfied: pillow>=6.2.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (8.3.1)\nRequirement already satisfied: cachetools>=4.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (4.2.2)\nRequirement already satisfied: packaging in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (20.9)\nRequirement already satisfied: python-dateutil in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (2.8.1)\nRequirement already satisfied: semver in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (2.13.0)\nRequirement already satisfied: validators in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (0.18.2)\nRequirement already satisfied: base58 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (2.1.1)\nRequirement already satisfied: typing-extensions; python_version < \"3.8\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (3.10.0.0)\nRequirement already satisfied: toml in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (0.10.2)\nRequirement already satisfied: tzlocal in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (4.1)\nRequirement already satisfied: attrs in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (21.2.0)\nRequirement already satisfied: blinker in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from streamlit) (1.4)\nRequirement already satisfied: toolz in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from altair>=3.2.0->streamlit) (0.11.2)\nRequirement already satisfied: jsonschema in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from altair>=3.2.0->streamlit) (3.2.0)\nRequirement already satisfied: entrypoints in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from altair>=3.2.0->streamlit) (0.3)\nRequirement already satisfied: jinja2 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from altair>=3.2.0->streamlit) (2.11.2)\nRequirement already satisfied: certifi>=2017.4.17 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from requests->streamlit) (2021.5.30)\nRequirement already satisfied: idna<3,>=2.5 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from requests->streamlit) (2.10)\nRequirement already satisfied: urllib3<1.27,>=1.21.1 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from requests->streamlit) (1.25.11)\nRequirement already satisfied: chardet<5,>=3.0.2 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from requests->streamlit) (4.0.0)\nRequirement already satisfied: traitlets>=4.3.2 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from pydeck>=0.1.dev5->streamlit) (4.3.3)\nRequirement already satisfied: ipywidgets>=7.0.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from pydeck>=0.1.dev5->streamlit) (7.6.3)\nRequirement already satisfied: ipykernel>=5.1.2; python_version >= \"3.4\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from pydeck>=0.1.dev5->streamlit) (5.5.5)\nRequirement already satisfied: six>=1.9 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from protobuf!=3.11,>=3.6.0->streamlit) (1.16.0)\nRequirement already satisfied: gitdb<5,>=4.0.1 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from gitpython!=3.1.19->streamlit) (4.0.7)\nRequirement already satisfied: pytz>=2017.2 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from pandas>=0.21.0->streamlit) (2021.1)\nRequirement already satisfied: zipp>=0.5 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from importlib-metadata>=1.4->streamlit) (3.4.1)\nRequirement already satisfied: pyparsing>=2.0.2 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from packaging->streamlit) (2.4.7)\nRequirement already satisfied: decorator>=3.4.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from validators->streamlit) (4.4.2)\nRequirement already satisfied: pytz-deprecation-shim in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from tzlocal->streamlit) (0.1.0.post0)\nRequirement already satisfied: backports.zoneinfo; python_version < \"3.9\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from tzlocal->streamlit) (0.2.1)\nRequirement already satisfied: setuptools in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from jsonschema->altair>=3.2.0->streamlit) (50.3.0)\nRequirement already satisfied: pyrsistent>=0.14.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from jsonschema->altair>=3.2.0->streamlit) (0.18.0)\nRequirement already satisfied: MarkupSafe>=0.23 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from jinja2->altair>=3.2.0->streamlit) (2.0.1)\nRequirement already satisfied: ipython-genutils in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from traitlets>=4.3.2->pydeck>=0.1.dev5->streamlit) (0.2.0)\nRequirement already satisfied: jupyterlab-widgets>=1.0.0; python_version >= \"3.6\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (1.0.0)\nRequirement already satisfied: nbformat>=4.2.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (5.1.3)\nRequirement already satisfied: widgetsnbextension~=3.5.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (3.5.1)\nRequirement already satisfied: ipython>=4.0.0; python_version >= \"3.3\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (7.16.1)\nRequirement already satisfied: jupyter-client in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipykernel>=5.1.2; python_version >= \"3.4\"->pydeck>=0.1.dev5->streamlit) (6.1.12)\nRequirement already satisfied: smmap<5,>=3.0.1 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19->streamlit) (4.0.0)\nRequirement already satisfied: tzdata; python_version >= \"3.6\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from pytz-deprecation-shim->tzlocal->streamlit) (2021.5)\nRequirement already satisfied: importlib-resources; python_version < \"3.7\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from backports.zoneinfo; python_version < \"3.9\"->tzlocal->streamlit) (5.4.0)\nRequirement already satisfied: jupyter-core in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from nbformat>=4.2.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (4.7.1)\nRequirement already satisfied: notebook>=4.4.1 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (6.4.0)\nRequirement already satisfied: backcall in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.2.0)\nRequirement already satisfied: pexpect; sys_platform != \"win32\" in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (4.8.0)\nRequirement already satisfied: pygments in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (2.9.0)\nRequirement already satisfied: jedi>=0.10 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.17.2)\nRequirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (3.0.19)\nRequirement already satisfied: pickleshare in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.7.5)\nRequirement already satisfied: pyzmq>=13 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from jupyter-client->ipykernel>=5.1.2; python_version >= \"3.4\"->pydeck>=0.1.dev5->streamlit) (22.1.0)\nRequirement already satisfied: Send2Trash>=1.5.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (1.7.1)\nRequirement already satisfied: argon2-cffi in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (20.1.0)\nRequirement already satisfied: terminado>=0.8.3 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.10.1)\nRequirement already satisfied: prometheus-client in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.11.0)\nRequirement already satisfied: nbconvert in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (5.6.1)\nRequirement already satisfied: ptyprocess>=0.5 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from pexpect; sys_platform != \"win32\"->ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.7.0)\nRequirement already satisfied: parso<0.8.0,>=0.7.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from jedi>=0.10->ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.7.1)\nRequirement already satisfied: wcwidth in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=4.0.0; python_version >= \"3.3\"->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.2.5)\nRequirement already satisfied: cffi>=1.0.0 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (1.14.5)\nRequirement already satisfied: mistune<2,>=0.8.1 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.8.4)\nRequirement already satisfied: pandocfilters>=1.4.1 in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (1.4.3)\nRequirement already satisfied: bleach in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (3.3.1)\nRequirement already satisfied: defusedxml in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.7.1)\nRequirement already satisfied: testpath in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.5.0)\nRequirement already satisfied: pycparser in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from cffi>=1.0.0->argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (2.20)\nRequirement already satisfied: webencodings in /anaconda/envs/azureml_py36/lib/python3.6/site-packages (from bleach->nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets>=7.0.0->pydeck>=0.1.dev5->streamlit) (0.5.1)\n"
+        }
+      ],
+      "execution_count": 2,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -47,11 +53,11 @@
         "user_profile = pd.read_csv(\"data/User_Profile_Null_Handled.csv\")"
       ],
       "outputs": [],
-      "execution_count": 22,
+      "execution_count": 3,
       "metadata": {
         "scrolled": true,
         "gather": {
-          "logged": 1645958113112
+          "logged": 1647028034191
         }
       }
     },
@@ -61,7 +67,7 @@
         "user_to_query = 'ffffe6d0d44f76428f676bd36e83df76'"
       ],
       "outputs": [],
-      "execution_count": 80,
+      "execution_count": 4,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -73,7 +79,7 @@
           }
         },
         "gather": {
-          "logged": 1645958852835
+          "logged": 1647028034285
         }
       }
     },
@@ -97,10 +103,10 @@
           "text": "/anaconda/envs/azureml_py36/lib/python3.6/site-packages/pandas/core/frame.py:4308: SettingWithCopyWarning: \nA value is trying to be set on a copy of a slice from a DataFrame\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n  errors=errors,\n"
         }
       ],
-      "execution_count": 48,
+      "execution_count": 5,
       "metadata": {
         "gather": {
-          "logged": 1645958536235
+          "logged": 1647028034493
         }
       }
     },
@@ -116,10 +122,10 @@
           "text": "<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 42594 entries, 0 to 42593\nData columns (total 14 columns):\n #   Column                          Non-Null Count  Dtype  \n---  ------                          --------------  -----  \n 0   ACCOUNT_NUM.hash                42594 non-null  object \n 1   Voice_INCOMING_Scaled           42594 non-null  float64\n 2   Voice_OUTGOING_Scaled           42594 non-null  float64\n 3   IDD_INCOMING_Scaled             42594 non-null  float64\n 4   IDD_OUTGOING_Scaled             42594 non-null  float64\n 5   PEO_TV_Scaled                   42594 non-null  float64\n 6   BB_Scaled                       42594 non-null  float64\n 7   Megaline_Rental_Scaled          42594 non-null  float64\n 8   FTTH_Rental_Scaled              42594 non-null  float64\n 9   LTE_Rental_Scaled               42594 non-null  float64\n 10  VAS_Rental_Scaled               42594 non-null  float64\n 11  label                           42594 non-null  object \n 12  Sub_Update_Promotion Downgrade  42594 non-null  uint8  \n 13  Sub_Update_Promotion Upgrade    42594 non-null  uint8  \ndtypes: float64(10), object(2), uint8(2)\nmemory usage: 4.0+ MB\n"
         }
       ],
-      "execution_count": 49,
+      "execution_count": 6,
       "metadata": {
         "gather": {
-          "logged": 1645958539184
+          "logged": 1647028034611
         }
       }
     },
@@ -132,17 +138,17 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 50,
+          "execution_count": 7,
           "data": {
             "text/plain": "42594"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 50,
+      "execution_count": 7,
       "metadata": {
         "gather": {
-          "logged": 1645958550277
+          "logged": 1647028034719
         }
       }
     },
@@ -155,17 +161,17 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 51,
+          "execution_count": 8,
           "data": {
             "text/plain": "5"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 51,
+      "execution_count": 8,
       "metadata": {
         "gather": {
-          "logged": 1645958551696
+          "logged": 1647028034821
         }
       }
     },
@@ -176,10 +182,10 @@
         "data_dim=data.iloc[:,[1,2,3,4,5,6,7,8,9,10,12,13]]"
       ],
       "outputs": [],
-      "execution_count": 52,
+      "execution_count": 9,
       "metadata": {
         "gather": {
-          "logged": 1645958594752
+          "logged": 1647028034890
         }
       }
     },
@@ -206,17 +212,17 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 53,
+          "execution_count": 10,
           "data": {
             "text/plain": "PCA(n_components=12)"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 53,
+      "execution_count": 10,
       "metadata": {
         "gather": {
-          "logged": 1645958597853
+          "logged": 1647028034986
         }
       }
     },
@@ -229,17 +235,17 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 54,
+          "execution_count": 11,
           "data": {
             "text/plain": "array([1.66313011e-01, 1.33440956e-01, 8.25579255e-02, 7.34568768e-02,\n       3.41011303e-02, 1.95787391e-02, 6.89930505e-03, 3.96066719e-03,\n       3.54079095e-03, 2.28304784e-03, 2.23635207e-04, 2.31033462e-05])"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 54,
+      "execution_count": 11,
       "metadata": {
         "gather": {
-          "logged": 1645958599375
+          "logged": 1647028035087
         }
       }
     },
@@ -252,17 +258,17 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 55,
+          "execution_count": 12,
           "data": {
             "text/plain": "array([0.31595666, 0.56946394, 0.72630511, 0.86585636, 0.93064071,\n       0.96783583, 0.98094293, 0.98846729, 0.99519398, 0.99953125,\n       0.99995611, 1.        ])"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 55,
+      "execution_count": 12,
       "metadata": {
         "gather": {
-          "logged": 1645958600765
+          "logged": 1647028035161
         }
       }
     },
@@ -289,10 +295,10 @@
           }
         }
       ],
-      "execution_count": 56,
+      "execution_count": 13,
       "metadata": {
         "gather": {
-          "logged": 1645958602418
+          "logged": 1647028035274
         }
       }
     },
@@ -313,10 +319,10 @@
         "results_df = pd.DataFrame(reduced_data,columns=['usage'])"
       ],
       "outputs": [],
-      "execution_count": 57,
+      "execution_count": 14,
       "metadata": {
         "gather": {
-          "logged": 1645958606286
+          "logged": 1647028035384
         }
       }
     },
@@ -328,10 +334,10 @@
         "results_df[['usage']] = scaler.fit_transform(results_df[['usage']])"
       ],
       "outputs": [],
-      "execution_count": 58,
+      "execution_count": 15,
       "metadata": {
         "gather": {
-          "logged": 1645958607371
+          "logged": 1647028035521
         }
       }
     },
@@ -341,10 +347,10 @@
         "data=pd.concat([data,results_df],axis=1)"
       ],
       "outputs": [],
-      "execution_count": 59,
+      "execution_count": 16,
       "metadata": {
         "gather": {
-          "logged": 1645958609505
+          "logged": 1647028035633
         }
       }
     },
@@ -354,10 +360,10 @@
         "data = data[[\"ACCOUNT_NUM.hash\",\"label\",\"usage\"]]"
       ],
       "outputs": [],
-      "execution_count": 60,
+      "execution_count": 17,
       "metadata": {
         "gather": {
-          "logged": 1645958611812
+          "logged": 1647028035695
         }
       }
     },
@@ -373,7 +379,7 @@
           "text": "<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 42594 entries, 0 to 42593\nData columns (total 3 columns):\n #   Column            Non-Null Count  Dtype  \n---  ------            --------------  -----  \n 0   ACCOUNT_NUM.hash  42594 non-null  object \n 1   label             42594 non-null  object \n 2   usage             42594 non-null  float64\ndtypes: float64(1), object(2)\nmemory usage: 998.4+ KB\n"
         }
       ],
-      "execution_count": 61,
+      "execution_count": 18,
       "metadata": {
         "jupyter": {
           "source_hidden": false,
@@ -385,7 +391,7 @@
           }
         },
         "gather": {
-          "logged": 1645958613386
+          "logged": 1647028035779
         }
       }
     },
@@ -400,24 +406,13 @@
       "cell_type": "code",
       "source": [
         "# create the user item matrix using the ratings dataset - Hint: try using pivot function \n",
-        "interactions_metrix = data.pivot_table(index=\"ACCOUNT_NUM.hash\", columns=\"label\", values=\"usage\")\n",
-        "interactions_metrix"
+        "interactions_metrix = data.pivot_table(index=\"ACCOUNT_NUM.hash\", columns=\"label\", values=\"usage\")"
       ],
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "execution_count": 74,
-          "data": {
-            "text/plain": "label                             4G  DOUBLE_PLAY_BV  DOUBLE_PLAY_PV  \\\nACCOUNT_NUM.hash                                                       \n0003102d10a11c8f2f0f241f00a36b2d NaN             NaN             NaN   \n0003df7598926f578f53ecd9e424f3c9 NaN        0.330602             NaN   \n00092b1fd47eb05d000a3553ae072056 NaN             NaN             NaN   \n00094326efae1d73371d118204e12e46 NaN             NaN        0.343136   \n000ae59b7eb91e778f22e3f07495f4f9 NaN        0.416101             NaN   \n...                               ..             ...             ...   \nfff9148b195a844454cf5b07c2fccbcb NaN             NaN        0.090593   \nfffaeeddaabbd2868c183d8884b2a98d NaN             NaN             NaN   \nfffd0b8541e9f62496092d2ea8609135 NaN             NaN             NaN   \nffff7fc0c266ac5b34f91de1ba4f3039 NaN             NaN             NaN   \nffffe6d0d44f76428f676bd36e83df76 NaN             NaN             NaN   \n\nlabel                             SINGLE_PLAY  TRIPLE_PLAY  \nACCOUNT_NUM.hash                                            \n0003102d10a11c8f2f0f241f00a36b2d          NaN     0.713319  \n0003df7598926f578f53ecd9e424f3c9          NaN          NaN  \n00092b1fd47eb05d000a3553ae072056          NaN     0.413539  \n00094326efae1d73371d118204e12e46          NaN          NaN  \n000ae59b7eb91e778f22e3f07495f4f9          NaN          NaN  \n...                                       ...          ...  \nfff9148b195a844454cf5b07c2fccbcb          NaN          NaN  \nfffaeeddaabbd2868c183d8884b2a98d          NaN     0.449490  \nfffd0b8541e9f62496092d2ea8609135          NaN     0.514746  \nffff7fc0c266ac5b34f91de1ba4f3039          NaN     0.377707  \nffffe6d0d44f76428f676bd36e83df76     0.243251          NaN  \n\n[42594 rows x 5 columns]",
-            "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th>label</th>\n      <th>4G</th>\n      <th>DOUBLE_PLAY_BV</th>\n      <th>DOUBLE_PLAY_PV</th>\n      <th>SINGLE_PLAY</th>\n      <th>TRIPLE_PLAY</th>\n    </tr>\n    <tr>\n      <th>ACCOUNT_NUM.hash</th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0003102d10a11c8f2f0f241f00a36b2d</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.713319</td>\n    </tr>\n    <tr>\n      <th>0003df7598926f578f53ecd9e424f3c9</th>\n      <td>NaN</td>\n      <td>0.330602</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n    </tr>\n    <tr>\n      <th>00092b1fd47eb05d000a3553ae072056</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.413539</td>\n    </tr>\n    <tr>\n      <th>00094326efae1d73371d118204e12e46</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.343136</td>\n      <td>NaN</td>\n      <td>NaN</td>\n    </tr>\n    <tr>\n      <th>000ae59b7eb91e778f22e3f07495f4f9</th>\n      <td>NaN</td>\n      <td>0.416101</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n    </tr>\n    <tr>\n      <th>...</th>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n    </tr>\n    <tr>\n      <th>fff9148b195a844454cf5b07c2fccbcb</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.090593</td>\n      <td>NaN</td>\n      <td>NaN</td>\n    </tr>\n    <tr>\n      <th>fffaeeddaabbd2868c183d8884b2a98d</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.449490</td>\n    </tr>\n    <tr>\n      <th>fffd0b8541e9f62496092d2ea8609135</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.514746</td>\n    </tr>\n    <tr>\n      <th>ffff7fc0c266ac5b34f91de1ba4f3039</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.377707</td>\n    </tr>\n    <tr>\n      <th>ffffe6d0d44f76428f676bd36e83df76</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>0.243251</td>\n      <td>NaN</td>\n    </tr>\n  </tbody>\n</table>\n<p>42594 rows × 5 columns</p>\n</div>"
-          },
-          "metadata": {}
-        }
-      ],
-      "execution_count": 74,
+      "outputs": [],
+      "execution_count": 19,
       "metadata": {
         "gather": {
-          "logged": 1645958783245
+          "logged": 1647028035847
         }
       }
     },
@@ -431,10 +426,42 @@
         "interactions_metrix = interactions_metrix.fillna(0)"
       ],
       "outputs": [],
-      "execution_count": 75,
+      "execution_count": 20,
       "metadata": {
         "gather": {
-          "logged": 1645958789704
+          "logged": 1647028035938
+        }
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "interactions_metrix"
+      ],
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 21,
+          "data": {
+            "text/plain": "label                             DOUBLE_PLAY_BV  DOUBLE_PLAY_PV  SINGLE_PLAY  \\\nACCOUNT_NUM.hash                                                                \n0003102d10a11c8f2f0f241f00a36b2d        0.000000        0.000000     0.000000   \n0003df7598926f578f53ecd9e424f3c9        0.330602        0.000000     0.000000   \n00092b1fd47eb05d000a3553ae072056        0.000000        0.000000     0.000000   \n00094326efae1d73371d118204e12e46        0.000000        0.343136     0.000000   \n000ae59b7eb91e778f22e3f07495f4f9        0.416101        0.000000     0.000000   \n...                                          ...             ...          ...   \nfff9148b195a844454cf5b07c2fccbcb        0.000000        0.090593     0.000000   \nfffaeeddaabbd2868c183d8884b2a98d        0.000000        0.000000     0.000000   \nfffd0b8541e9f62496092d2ea8609135        0.000000        0.000000     0.000000   \nffff7fc0c266ac5b34f91de1ba4f3039        0.000000        0.000000     0.000000   \nffffe6d0d44f76428f676bd36e83df76        0.000000        0.000000     0.243251   \n\nlabel                             TRIPLE_PLAY  \nACCOUNT_NUM.hash                               \n0003102d10a11c8f2f0f241f00a36b2d     0.713319  \n0003df7598926f578f53ecd9e424f3c9     0.000000  \n00092b1fd47eb05d000a3553ae072056     0.413539  \n00094326efae1d73371d118204e12e46     0.000000  \n000ae59b7eb91e778f22e3f07495f4f9     0.000000  \n...                                       ...  \nfff9148b195a844454cf5b07c2fccbcb     0.000000  \nfffaeeddaabbd2868c183d8884b2a98d     0.449490  \nfffd0b8541e9f62496092d2ea8609135     0.514746  \nffff7fc0c266ac5b34f91de1ba4f3039     0.377707  \nffffe6d0d44f76428f676bd36e83df76     0.000000  \n\n[42594 rows x 4 columns]",
+            "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th>label</th>\n      <th>DOUBLE_PLAY_BV</th>\n      <th>DOUBLE_PLAY_PV</th>\n      <th>SINGLE_PLAY</th>\n      <th>TRIPLE_PLAY</th>\n    </tr>\n    <tr>\n      <th>ACCOUNT_NUM.hash</th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0003102d10a11c8f2f0f241f00a36b2d</th>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.713319</td>\n    </tr>\n    <tr>\n      <th>0003df7598926f578f53ecd9e424f3c9</th>\n      <td>0.330602</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n    </tr>\n    <tr>\n      <th>00092b1fd47eb05d000a3553ae072056</th>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.413539</td>\n    </tr>\n    <tr>\n      <th>00094326efae1d73371d118204e12e46</th>\n      <td>0.000000</td>\n      <td>0.343136</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n    </tr>\n    <tr>\n      <th>000ae59b7eb91e778f22e3f07495f4f9</th>\n      <td>0.416101</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n    </tr>\n    <tr>\n      <th>...</th>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n    </tr>\n    <tr>\n      <th>fff9148b195a844454cf5b07c2fccbcb</th>\n      <td>0.000000</td>\n      <td>0.090593</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n    </tr>\n    <tr>\n      <th>fffaeeddaabbd2868c183d8884b2a98d</th>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.449490</td>\n    </tr>\n    <tr>\n      <th>fffd0b8541e9f62496092d2ea8609135</th>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.514746</td>\n    </tr>\n    <tr>\n      <th>ffff7fc0c266ac5b34f91de1ba4f3039</th>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.377707</td>\n    </tr>\n    <tr>\n      <th>ffffe6d0d44f76428f676bd36e83df76</th>\n      <td>0.000000</td>\n      <td>0.000000</td>\n      <td>0.243251</td>\n      <td>0.000000</td>\n    </tr>\n  </tbody>\n</table>\n<p>42594 rows × 4 columns</p>\n</div>"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 21,
+      "metadata": {
+        "jupyter": {
+          "source_hidden": false,
+          "outputs_hidden": false
+        },
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
+        },
+        "gather": {
+          "logged": 1647028036045
         }
       }
     },
