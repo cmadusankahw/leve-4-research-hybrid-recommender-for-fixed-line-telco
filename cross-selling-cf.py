@@ -27,7 +27,7 @@ st.header("Telco Recs - Telecommunication Service Packages recommender")
 st.subheader("A context-aware Hybrid Recommender System")
 
 st.sidebar.subheader("Settings")
-rec_type = st.sidebar.selectbox("Select a Recommender Approach", ("Cross-Selling recommendations", "Up-selling Recommendations"))
+rec_type = st.sidebar.selectbox("Select a Recommender Approach", ("Cross-Selling recommendations", "Up-selling Recommendations- Broadband", "Up-selling Recommendations- CableTV"))
 algos_list = []
 if rec_type == "Cross-Selling recommendations":
     algos_list = ['Matrix Factorization', 'SVD', 'Cosine-Similarity', 'KNN with Means','slopeOne']
@@ -46,11 +46,9 @@ st.image(img,use_column_width = 'always')
 
 
 # %%
-up = st.text_input('Enter path to User Profile', 'data/User_Profile_Null_Handled.csv')
-st.write('User Profile dataset path entered:   ', up)
+up = st.file_uploader('Upload User Profile')
 st.text("")
-pp = st.text_input('Enter path to Product Profile', 'data/Product_Profile.csv')
-st.write('Product Profile dataset path entered:   ', pp)
+pp = st.file_uploader('Upload Product Profile')
 st.text("")
 users_to_predict = st.text_area("Add Users to predict recommendations (seperate each User Id by commas)")
 
@@ -66,10 +64,10 @@ def create_interaction_matrix(data):
     return interactions_metrix.fillna(0)
 
 # %%
-def train_test_splitter(data):
+def train_test_splitter(data, users):
     reader = Reader(rating_scale=(0, 1))
     data_model = Dataset.load_from_df(data, reader)
-    return data_model,train_test_split(data_model, test_size=.20)
+    return data_model,train_test_split(data_model, test_size=.20 , random_state=0)
 
 # %%
 def get_Iu(uid):
@@ -149,7 +147,7 @@ def ndcg2(y_true, y_pred, k=None):
 
 # %%
 def top_n_pred(predictions):
-    top_n = get_top_n(predictions, n=3)
+    top_n = get_top_n(predictions, n=5)
     #print(top_n)
     users_est = defaultdict(list)
     users_true=defaultdict(list)
@@ -185,21 +183,33 @@ if st.button("Predict Recommendations"):
     user_profile = pd.read_csv(up)
     users_to_predict = users_to_predict.strip().split(",")
 
-    data=user_profile.iloc[:,[1,3,11,14,18,23,25,43,48,53,59,61,34]]
-    #data.rename(columns={"Sub_Type":"label"},inplace=True)
-    data = pd.get_dummies(data, prefix=['Sub_Update'], columns=['Sub_Update_Status'])
-    # data.drop('Sub_Update_Status', axis=1)
+    if rec_type == "Cross-Selling recommendations":
+        data=user_profile.iloc[:,[1,3,11,14,18,23,25,43,48,53,59,61,34]]
+        #data.rename(columns={"Sub_Type":"label"},inplace=True)
+        data = pd.get_dummies(data, prefix=['Sub_Update'], columns=['Sub_Update_Status'])
+        # data.drop('Sub_Update_Status', axis=1)
 
-    # Label encode class
-    # le = LabelEncoder()
-    # data['label'] = le.fit_transform(data.Sub_Type.values)
-    data = data.drop(['Sub_Update_NO_INFO'], axis=1)
+        # Label encode class
+        # le = LabelEncoder()
+        # data['label'] = le.fit_transform(data.Sub_Type.values)
+        data = data.drop(['Sub_Update_NO_INFO'], axis=1)
 
-    data.fillna(0,inplace=True)
-    data_dim=data.iloc[:,[1,2,3,4,5,6,7,8,9,10,12,13]]
+        data.fillna(0,inplace=True)
+        data_dim=data.iloc[:,[1,2,3,4,5,6,7,8,9,10,12,13]]
 
-    pc=PCA(n_components=12) 
-    pc.fit(data_dim)
+    if rec_type == "Up-selling Recommendations- Broadband":
+        data=user_profile.iloc[:,[1,3,11,14,18,23,25,43,48,53,59,68,72,26]]
+        data = data[(data["BB_Package"]!= "NO_INFO")]
+
+        data.fillna(0,inplace=True)
+        data_dim=data.iloc[:,[1,2,3,4,5,6,7,8,9,10,11,12]]
+
+    if rec_type == "Up-selling Recommendations- CableTV":
+        data=user_profile.iloc[:,[1,3,11,14,18,23,25,43,48,53,59,75,21]]
+        data = data[(data["Peo_TV_Package"]!= "NO_INFO")]
+
+        data.fillna(0,inplace=True)
+        data_dim=data.iloc[:,[1,2,3,4,5,6,7,8,9,10,11]]
 
     st.text("")
 
@@ -217,7 +227,7 @@ if st.button("Predict Recommendations"):
     scaler = MinMaxScaler()
     results_df[['ratings']] = scaler.fit_transform(results_df[['ratings']])
     data=pd.concat([data,results_df],axis=1)
-    data.rename(columns={"Sub_Type":"package"}, inplace=True)
+    data.rename(columns={"Sub_Type":"package","Peo_TV_Package":"package","BB_Package":"package"}, inplace=True)
     data = data[["ACCOUNT_NUM.hash","package","ratings"]]
     data = data[data["ratings"] > 0]
 
@@ -230,8 +240,13 @@ if st.button("Predict Recommendations"):
     st.text("")
 
     st.text("Preparing Train Test Splits..")
-    data_model, (trainset, testset) = train_test_splitter(data)
+    data_model, (trainset, testset) = train_test_splitter(data,users_to_predict)
     st.text("Train Test Splitting Completed.. Trainset 80%.. Testset 20%..")
+
+    data_triplet = None
+    so_validate = None
+    svd_validate = None
+    nmf_validate = None
 
 
     if "SVD" in sel_algos:
@@ -263,7 +278,6 @@ if st.button("Predict Recommendations"):
         df['Ui'] = df.iid.apply(get_Ui)
         df['err'] = abs(df.est - df.rui)
 
-
         data_triplet = data.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
         data_triplet.dropna(subset=["uid"],inplace=True)
         data_triplet.drop("uid", axis=1, inplace = True)
@@ -276,7 +290,23 @@ if st.button("Predict Recommendations"):
         best_predictions = df.query("uid == @users_to_predict") #.sort_values(by='err')[:10]
         best_predictions.rename(columns={"uid":"User", "iid":"Predicted Recommendation"},inplace = True)
         st.subheader("SVD model Predictions for given Users:")
-        st.dataframe(best_predictions)
+
+        if rec_type == "Cross-Selling recommendations":
+            st.dataframe(best_predictions)
+        else:
+            dd = dict(top_n)
+            users_recs = {}
+            for k,v in dd.items():
+                vals = []
+                for its in v:
+                    vals.append(its[0])
+                itl = 5 - len(vals)
+                for i in range (0,itl):
+                    vals.append("None")
+                users_recs[k] = vals
+            tb = pd.DataFrame(users_recs).T.reset_index()
+            tb.columns = ["user", "recommention 1", "recommention 2", "recommention 3", "recommention 4","recommention 5"]
+            st.dataframe(tb)
         st.text("")
 
     if "slopeOne" in sel_algos:
@@ -307,8 +337,10 @@ if st.button("Predict Recommendations"):
         df['Ui'] = df.iid.apply(get_Ui)
         df['err'] = abs(df.est - df.rui)
 
-
-        data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
+        if data_triplet is None:
+            data_triplet = data.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
+        else:
+            data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
         data_triplet.dropna(subset=["uid"],inplace=True)
         data_triplet.drop("uid", axis=1, inplace = True)
         data_triplet.rename(columns={"iid":"SlopeOne_recommendation","err":"SlopeOne_error"}, inplace = True)
@@ -320,7 +352,23 @@ if st.button("Predict Recommendations"):
         best_predictions = df.query("uid == @users_to_predict") #.sort_values(by='err')[:10]
         best_predictions.rename(columns={"uid":"User", "iid":"Predicted Recommendation"},inplace = True)
         st.subheader("slopeOne model Predictions for given users:")
-        st.dataframe(best_predictions)
+        if rec_type == "Cross-Selling recommendations":
+            st.dataframe(best_predictions)
+        else:
+            dd = dict(top_n)
+            users_recs = {}
+            for k,v in dd.items():
+                vals = []
+                for its in v:
+                    vals.append(its[0])
+                itl = 5 - len(vals)
+                for i in range (0,itl):
+                    vals.append("None")
+                users_recs[k] = vals
+
+            tb = pd.DataFrame(users_recs).T.reset_index()
+            tb.columns = ["user", "recommention 1", "recommention 2", "recommention 3", "recommention 4","recommention 5"]
+            st.dataframe(tb)
         st.text("")
 
     if "Matrix Factorization" in sel_algos:
@@ -351,7 +399,10 @@ if st.button("Predict Recommendations"):
         df['Ui'] = df.iid.apply(get_Ui)
         df['err'] = abs(df.est - df.rui)
 
-        data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
+        if data_triplet is None:
+            data_triplet = data.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
+        else:
+            data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
         data_triplet.dropna(subset=["uid"],inplace=True)
         data_triplet.drop("uid", axis=1, inplace = True)
         data_triplet.rename(columns={"iid":"MF_recommendation","err":"MF_error"}, inplace = True)
@@ -362,26 +413,50 @@ if st.button("Predict Recommendations"):
         best_predictions = df.query("uid == @users_to_predict") #.sort_values(by='err')[:10]
         best_predictions.rename(columns={"uid":"User", "iid":"Predicted Recommendation"},inplace = True)
         st.subheader("MF model Predictions for given users:")
-        st.dataframe(best_predictions)
+        if rec_type == "Cross-Selling recommendations":
+            st.dataframe(best_predictions)
+        else:
+            dd = dict(top_n)
+            users_recs = {}
+            for k,v in dd.items():
+                vals = []
+                for its in v:
+                    vals.append(its[0])
+                itl = 5 - len(vals)
+                for i in range (0,itl):
+                    vals.append("None")
+                users_recs[k] = vals
+
+            tb = pd.DataFrame(users_recs).T.reset_index()
+            tb.columns = ["user", "recommention 1", "recommention 2", "recommention 3", "recommention 4","recommention 5"]
+            st.dataframe(tb)
         st.text("")
 
 
     st.subheader("Accuracy of Algorithms (RMSE, MAE)")
 
     fig,ax = plt.subplots(figsize=(13,8))
-    if so_validate:
+    legend_vals = []
+    legend_vals2 = []
+    if so_validate is not None:
         ax.plot(so_validate["test_rmse"], color='blue')
         ax.plot(so_validate["test_mae"], linestyle='dashdot', color='blue')
-    if svd_validate:
+        legend_vals.append("RMSE: SlopeOne")
+        legend_vals2.append("MAE: SlopeOne")
+    if svd_validate is not None:
         ax.plot(svd_validate["test_rmse"], color='green')
         ax.plot(svd_validate["test_mae"], linestyle='dashdot', color='green')
-    if nmf_validate:
+        legend_vals.append("RMSE: SVD")
+        legend_vals2.append("MAE: SVD")
+    if nmf_validate is not None:
         ax.plot(nmf_validate["test_rmse"], color='red')
         ax.plot(nmf_validate["test_mae"], linestyle='dashdot', color='red')
+        legend_vals.append("RMSE: NMF")
+        legend_vals2.append("MAE: NMF")
     # plt.xticks(np.arange(0, 30, 0.5))
     plt.title("Boradband Packages Recommender", loc="center")
-    # plt.legend(["RMSE: SlopeOne","RMSE: SVD","RMSE: NMF",
-    #         "MAE: SlopeOne","MAE: SVD","MAE: NMF"])
+    
+    plt.legend(legend_vals+legend_vals2)
 
     st.pyplot(fig)
 
