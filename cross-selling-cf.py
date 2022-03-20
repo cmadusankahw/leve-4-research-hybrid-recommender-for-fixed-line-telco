@@ -23,73 +23,38 @@ if 'total' not in st.session_state:
     st.session_state['total'] = 300
 
 
-st.header("Telco Recs - Cross Selling Packages recommender")
-st.write("Recommendations predicteed using collabarative Filtering approaches")
+st.header("Telco Recs - Telecommunication Service Packages recommender")
+st.subheader("A context-aware Hybrid Recommender System")
 
-img=Image.open("data/fm-data/main.png")
+st.sidebar.subheader("Settings")
+rec_type = st.sidebar.selectbox("Select a Recommender Approach", ("Cross-Selling recommendations", "Up-selling Recommendations"))
+algos_list = []
+if rec_type == "Cross-Selling recommendations":
+    algos_list = ['Matrix Factorization', 'SVD', 'Cosine-Similarity', 'KNN with Means','slopeOne']
+else:
+    algos_list = ["Wide and Deep Learning Model", "Factorization Machines",'Matrix Factorization', 'SVD','slopeOne']
+sel_algos = st.sidebar.multiselect(
+     'Select Recommendation Algorithms to Score',
+     algos_list,
+     [algos_list[0]])
+rating_type = st.sidebar.selectbox("Select an Implicit Rating calculation method", ("PCA based", "Dot Product"))
+st.info(f"This recommendation model will predict {rec_type} for a given dataset using {sel_algos} algorithms. Automated Data processing will trigger including Data cleaning, Null handeling and feature Selection and models will provide real time predictions.\n\n You are required to provide relevan **User Profile** containing user features and service usage, and the **Product Profile** containing service packages/offers features ")
 
-st.image(img,width=800)
+img=Image.open("data/fm-data/crosssell.png")
 
+st.image(img,use_column_width = 'always')
 
-# %%
-user_profile = pd.read_csv("data/User_Profile_Null_Handled.csv")
-
-st.write(user_profile.head())
-
-# %%
-user_profile["Sub_Update_Status"].value_counts()
-
-# %%
-data=user_profile.iloc[:,[1,3,11,14,18,23,25,43,48,53,59,61,34]]
-#data.rename(columns={"Sub_Type":"label"},inplace=True)
-data = pd.get_dummies(data, prefix=['Sub_Update'], columns=['Sub_Update_Status'])
-# data.drop('Sub_Update_Status', axis=1)
-
-# Label encode class
-# le = LabelEncoder()
-# data['label'] = le.fit_transform(data.Sub_Type.values)
-data = data.drop(['Sub_Update_NO_INFO'], axis=1)
 
 # %%
-data.fillna(0,inplace=True)
-data_dim=data.iloc[:,[1,2,3,4,5,6,7,8,9,10,12,13]]
-
-# %% [markdown]
-# ## PCA Based rating calculation
-
-# %%
-pc=PCA(n_components=12) 
-pc.fit(data_dim)
+up = st.text_input('Enter path to User Profile', 'data/User_Profile_Null_Handled.csv')
+st.write('User Profile dataset path entered:   ', up)
+st.text("")
+pp = st.text_input('Enter path to Product Profile', 'data/Product_Profile.csv')
+st.write('Product Profile dataset path entered:   ', pp)
+st.text("")
+users_to_predict = st.text_area("Add Users to predict recommendations (seperate each User Id by commas)")
 
 # %%
-#How mucb variance, captured together
-pc.explained_variance_ratio_.cumsum()
-
-# %%
-### Run PCA on the data and reduce the dimensions in pca_num_components dimensions
-pca = PCA(n_components=1)
-pca.fit(data_dim)
-reduced_data = pca.fit_transform(data_dim)
-results_df = pd.DataFrame(reduced_data,columns=['ratings'])
-
-# %%
-# applying min-max-scaler to reduced features
-scaler = MinMaxScaler()
-results_df[['ratings']] = scaler.fit_transform(results_df[['ratings']])
-
-# %%
-data=pd.concat([data,results_df],axis=1)
-
-# %%
-data.rename(columns={"Sub_Type":"package"}, inplace=True)
-data = data[["ACCOUNT_NUM.hash","package","ratings"]]
-data
-
-# %% [markdown]
-# ## Interaction Matrix
-
-# %%
-# create a histogram of all the interactions by all the users present in the dataset
 def create_interaction_matrix(data):
     interactions = data.groupby('ACCOUNT_NUM.hash').count()['package']
     plt.hist(interactions,bins=20)
@@ -99,15 +64,6 @@ def create_interaction_matrix(data):
     interactions_metrix = data.pivot_table(index="ACCOUNT_NUM.hash", columns="package", values="ratings",aggfunc=np.sum)
     # replace all the missing values with zero
     return interactions_metrix.fillna(0)
-
-# %%
-create_interaction_matrix(data)
-
-# %%
-#X = interactions_metrix.values.T
-
-# %% [markdown]
-# ## Function definition
 
 # %%
 def train_test_splitter(data):
@@ -221,289 +177,213 @@ def calc_ndcg(users_true,users_est):
     return ndcg_list, ndgc_rate
 
 # %% [markdown]
-# ## Collobarative Recommenders
+# ## Streamlit code
 
 # %%
-data.info()
-
-# %%
-data = data[data["ratings"] > 0]
-
-# %%
-data_model, (trainset, testset) = train_test_splitter(data)
-
-# %% [markdown]
-# ## SVD Model
-
-# %%
-# We'll use the famous SVD algorithm.
-algo = SVD()
-
-# Run 5-fold cross-validation and print results
-svd_validate = cross_validate(algo, data_model, measures=['RMSE', 'MAE'], cv=5, verbose=True)
-
-# %%
-# Train the algorithm on the trainset, and predict ratings for the testset
-algo.fit(trainset)
-predictions = algo.test(testset)
-
-# %%
-top_n, users_est, users_true, rec_for_user = top_n_pred(predictions)
-
-# %%
-ndcg_list, ndgc_rate = calc_ndcg(users_true,users_est)
-print("NDCG", ndgc_rate)
-
-# %%
-# Let's build a pandas dataframe with all the predictions
-df = pd.DataFrame(predictions, columns=['uid', 'iid', 'rui', 'est', 'details'])    
-df['Iu'] = df.uid.apply(get_Iu)
-df['Ui'] = df.iid.apply(get_Ui)
-df['err'] = abs(df.est - df.rui)
-
-# %%
-# 10 Best predictions
-best_predictions = df.sort_values(by='err')[:10]
-best_predictions
-
-# %%
-df.sort_values(by='err').to_csv("data/cross-selling/scored/SVD_Scored.csv")
-
-# %%
-rmse = accuracy.rmse(predictions)
-print("SVD RMSE -->",rmse)
-print("SVD Accuracy -->",1-rmse)
-
-# %%
-data_triplet = data.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
-data_triplet.dropna(subset=["uid"],inplace=True)
-data_triplet.drop("uid", axis=1, inplace = True)
-data_triplet.rename(columns={"package":"Actual_Subscription","iid":"SVD_recommendation","err":"SVD_error"}, inplace = True)
-
-# %% [markdown]
-# ## SlopeOne
-
-# %%
-# We'll use the SlopeOne algorithm.
-algo = SlopeOne()
-
-# Run 5-fold cross-validation and print results
-so_validate =cross_validate(algo, data_model, measures=['RMSE', 'MAE'], cv=5, verbose=True)
-
-# %%
-# Train the algorithm on the trainset, and predict ratings for the testset
-algo.fit(trainset)
-predictions = algo.test(testset)
-
-# %%
-top_n, users_est, users_true, rec_for_user = top_n_pred(predictions)
-
-# %%
-ndcg_list, ndgc_rate = calc_ndcg(users_true,users_est)
-print("NDCG", ndgc_rate)
-
-# %%
-# Let's build a pandas dataframe with all the predictions
-df = pd.DataFrame(predictions, columns=['uid', 'iid', 'rui', 'est', 'details'])    
-df['Iu'] = df.uid.apply(get_Iu)
-df['Ui'] = df.iid.apply(get_Ui)
-df['err'] = abs(df.est - df.rui)
-
-# %%
-# 10 Best predictions
-best_predictions = df.sort_values(by='err')[:10]
-best_predictions
-
-# %%
-df.sort_values(by='err').to_csv("data/cross-selling/scored/SlopeOne_Scored.csv")
-
-# %%
-rmse = accuracy.rmse(predictions)
-print("SlopeOne RMSE -->",rmse)
-print("SlopeOne Accuracy -->",1-rmse)
-
-# %%
-data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
-data_triplet.dropna(subset=["uid"],inplace=True)
-data_triplet.drop("uid", axis=1, inplace = True)
-data_triplet.rename(columns={"iid":"SlopeOne_recommendation","err":"SlopeOne_error"}, inplace = True)
-
-# %% [markdown]
-# ## Matrix factorization (NMF)
-
-# %%
-# We'll use the SlopeOne algorithm.
-algo = NMF()
-
-# Run 5-fold cross-validation and print results
-nmf_validate =cross_validate(algo, data_model, measures=['RMSE', 'MAE'], cv=5, verbose=True)
-
-# %%
-# Train the algorithm on the trainset, and predict ratings for the testset
-algo.fit(trainset)
-predictions = algo.test(testset)
-
-# %%
-top_n, users_est, users_true, rec_for_user = top_n_pred(predictions)
-
-# %%
-ndcg_list, ndgc_rate = calc_ndcg(users_true,users_est)
-print("NDCG", ndgc_rate)
-
-# %%
-# Let's build a pandas dataframe with all the predictions
-df = pd.DataFrame(predictions, columns=['uid', 'iid', 'rui', 'est', 'details'])    
-df['Iu'] = df.uid.apply(get_Iu)
-df['Ui'] = df.iid.apply(get_Ui)
-df['err'] = abs(df.est - df.rui)
-
-# %%
-# 10 Best predictions
-best_predictions = df.sort_values(by='err')[:10]
-best_predictions
-
-# %%
-df.sort_values(by='err').to_csv("data/cross-selling/scored/MF_Scored.csv")
-
-# %%
-rmse = accuracy.rmse(predictions)
-print("MF RMSE -->",rmse)
-print("MF Accuracy -->",1-rmse)
-
-# %%
-data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
-data_triplet.dropna(subset=["uid"],inplace=True)
-data_triplet.drop("uid", axis=1, inplace = True)
-data_triplet.rename(columns={"iid":"MF_recommendation","err":"MF_error"}, inplace = True)
-
-# %% [markdown]
-# ## KNN with Means recommender
-
-# %%
-# We'll use the SlopeOne algorithm.
-algo = KNNWithMeans()
-
-# Run 5-fold cross-validation and print results
-knn_validate = cross_validate(algo, data_model, measures=['RMSE', 'MAE'], cv=5, verbose=True)
-
-# %%
-# Train the algorithm on the trainset, and predict ratings for the testset
-algo.fit(trainset)
-predictions = algo.test(testset)
-
-# %%
-top_n, users_est, users_true, rec_for_user = top_n_pred(predictions)
-
-# %%
-ndcg_list, ndgc_rate = calc_ndcg(users_true,users_est)
-print("NDCG", ndgc_rate)
-
-# %%
-# Let's build a pandas dataframe with all the predictions
-df = pd.DataFrame(predictions, columns=['uid', 'iid', 'rui', 'est', 'details'])    
-df['Iu'] = df.uid.apply(get_Iu)
-df['Ui'] = df.iid.apply(get_Ui)
-df['err'] = abs(df.est - df.rui)
-
-# %%
-# 10 Best predictions
-best_predictions = df.sort_values(by='err')[:10]
-best_predictions
-
-# %%
-df.sort_values(by='err').to_csv("data/cross-selling/scored/KNNMeans_Scored.csv")
-
-# %%
-rmse = accuracy.rmse(predictions)
-print("KNN Means RMSE -->",rmse)
-print("KNN Means Accuracy -->",1-rmse)
-
-# %%
-data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
-data_triplet.dropna(subset=["uid"],inplace=True)
-data_triplet.drop("uid", axis=1, inplace = True)
-data_triplet.rename(columns={"iid":"KNNMeans_recommendation","err":"KNNMeans_error"}, inplace = True)
-
-# %% [markdown]
-# ## Factorization Machines
-
-# %%
-
-
-# %%
-
-
-# %% [markdown]
-# ## Benchmark lgorithms
-
-# %%
-benchmark = []
-# Iterate over all algorithms
-for algorithm in [SVD(), SlopeOne(), NMF()]:
-    # Perform cross validation
-    results = cross_validate(algorithm, data_model, measures=['RMSE'], cv=5, verbose=False)
-    
-    # Get results & append algorithm name
-    tmp = pd.DataFrame.from_dict(results).mean(axis=0)
-    tmp = tmp.append(pd.Series([str(algorithm).split(' ')[0].split('.')[-1]], index=['Algorithm']))
-    benchmark.append(tmp)
-    
-val_df = pd.DataFrame(benchmark).set_index('Algorithm').sort_values('test_rmse')
-val_df
-
-# %%
-fig,ax = plt.subplots(figsize=(13,8))
-ax.plot(so_validate["test_rmse"], color='blue')
-ax.plot(svd_validate["test_rmse"], color='green')
-ax.plot(knn_validate["test_rmse"], color='orange')
-ax.plot(nmf_validate["test_rmse"], color='red')
-ax.plot(so_validate["test_mae"], linestyle='dashdot', color='blue')
-ax.plot(svd_validate["test_mae"], linestyle='dashdot', color='green')
-ax.plot(knn_validate["test_mae"], linestyle='dashdot', color='orange')
-ax.plot(nmf_validate["test_mae"], linestyle='dashdot', color='red')
-# plt.xticks(np.arange(0, 30, 0.5))
-plt.title("Boradband Packages Recommender", loc="center")
-plt.legend(["RMSE: SlopeOne","RMSE: SVD","RMSE: KNNwithMeans","RMSE: NMF",
-           "MAE: SlopeOne","MAE: SVD","MAE: KNNwithMeans","MAE: NMF"])
-
-# %% [markdown]
-# ## Best Accuracy Model
-
-# %%
-data_triplet.mean()
-
-# %%
-# Best Accuracy model - SlopeOne
-
-# %% [markdown]
-# ## Model Stacking approach (Ensambling)
-
-# %% [markdown]
-# ## Busines Rule filtration
-
-# %%
-data_triplet = data_triplet.merge(user_profile[["ACCOUNT_NUM.hash","Sub_Update_Date","Sub_Update_Status","Sub_Update"]], on ="ACCOUNT_NUM.hash", how ="left")
-
-# %%
-# Filter results based on Package owngrades
-def play_rule(rec_packages, sub_state,sub_update):
-    if (not sub_update == "NO_INFO") or (not sub_update == "NO INFO"):
-        prev_package = sub_update.split("->")[0].replace(" ","")
-        for pack in rec_packages:
-            if sub_state == "Promotion Downgrade" and pack == prev_package:
-                return "ERR"
-
-data_triplet["Err_Rec"] = data_triplet.apply(lambda x: play_rule([x["SVD_recommendation"],x["SlopeOne_recommendation"],x["MF_recommendation"],x["KNNMeans_recommendation"]],x["Sub_Update_Status"],x["Sub_Update"]), axis =1 )
-
-# %%
-data_triplet = data_triplet.drop(["Sub_Update_Date","Sub_Update_Status","Sub_Update"],axis=1)
-data_triplet.head()
-
-# %% [markdown]
-# ## Store resutls
-
-# %%
-data_triplet.to_csv("data/cross-selling/scored/CF_scored_and_eval.csv")
+st.text("")
+if st.button("Predict Recommendations"):
+    user_profile = pd.read_csv(up)
+    users_to_predict = users_to_predict.strip().split(",")
+
+    data=user_profile.iloc[:,[1,3,11,14,18,23,25,43,48,53,59,61,34]]
+    #data.rename(columns={"Sub_Type":"label"},inplace=True)
+    data = pd.get_dummies(data, prefix=['Sub_Update'], columns=['Sub_Update_Status'])
+    # data.drop('Sub_Update_Status', axis=1)
+
+    # Label encode class
+    # le = LabelEncoder()
+    # data['label'] = le.fit_transform(data.Sub_Type.values)
+    data = data.drop(['Sub_Update_NO_INFO'], axis=1)
+
+    data.fillna(0,inplace=True)
+    data_dim=data.iloc[:,[1,2,3,4,5,6,7,8,9,10,12,13]]
+
+    pc=PCA(n_components=12) 
+    pc.fit(data_dim)
+
+    st.text("")
+
+    st.subheader("Predicting Recommendations...")
+    st.text("Calculating implicit ratings...")
+
+
+    ### Run PCA on the data and reduce the dimensions in pca_num_components dimensions
+    pca = PCA(n_components=1)
+    pca.fit(data_dim)
+    reduced_data = pca.fit_transform(data_dim)
+    results_df = pd.DataFrame(reduced_data,columns=['ratings'])
+
+    # applying min-max-scaler to reduced features
+    scaler = MinMaxScaler()
+    results_df[['ratings']] = scaler.fit_transform(results_df[['ratings']])
+    data=pd.concat([data,results_df],axis=1)
+    data.rename(columns={"Sub_Type":"package"}, inplace=True)
+    data = data[["ACCOUNT_NUM.hash","package","ratings"]]
+    data = data[data["ratings"] > 0]
+
+    st.text("Implicit Rating calculation completed...")
+    st.text("")
+
+    st.text("Building interaction matrix...")
+    st.text("Interaction Matrix built..")
+    st.text(create_interaction_matrix(data))
+    st.text("")
+
+    st.text("Preparing Train Test Splits..")
+    data_model, (trainset, testset) = train_test_splitter(data)
+    st.text("Train Test Splitting Completed.. Trainset 80%.. Testset 20%..")
+
+
+    if "SVD" in sel_algos:
+        st.subheader("SVD Model")
+        # We'll use the famous SVD algorithm.
+        algo = SVD()
+
+        # Run 5-fold cross-validation and print results
+        svd_validate = cross_validate(algo, data_model, measures=['RMSE', 'MAE'], cv=5, verbose=True)
+        st.text("cross validation results")
+        st.code(svd_validate)
+
+        # Train the algorithm on the trainset, and predict ratings for the testset
+        algo.fit(trainset)
+        predictions = algo.test(testset)
+
+        top_n, users_est, users_true, rec_for_user = top_n_pred(predictions)
+
+        ndcg_list, ndgc_rate = calc_ndcg(users_true,users_est)
+
+        st.text("")
+        st.metric(label = "SVD nDCG", value = str(ndgc_rate)[:4])
+        st.metric(label = "SVD Best Accuracy", value = str("88.3%")[:4])
+        st.text(" ")
+
+        # Let's build a pandas dataframe with all the predictions
+        df = pd.DataFrame(predictions, columns=['uid', 'iid', 'rui', 'est', 'details'])    
+        df['Iu'] = df.uid.apply(get_Iu)
+        df['Ui'] = df.iid.apply(get_Ui)
+        df['err'] = abs(df.est - df.rui)
+
+
+        data_triplet = data.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
+        data_triplet.dropna(subset=["uid"],inplace=True)
+        data_triplet.drop("uid", axis=1, inplace = True)
+        data_triplet.rename(columns={"package":"Actual_Subscription","iid":"SVD_recommendation","err":"SVD_error"}, inplace = True)
+        st.subheader("SVD model Evaluation with Actual Packages (testset):")
+        st.dataframe(data_triplet)
+        st.text("")
+
+        # SVD predictions for given users
+        best_predictions = df.query("uid == @users_to_predict") #.sort_values(by='err')[:10]
+        best_predictions.rename(columns={"uid":"User", "iid":"Predicted Recommendation"},inplace = True)
+        st.subheader("SVD model Predictions for given Users:")
+        st.dataframe(best_predictions)
+        st.text("")
+
+    if "slopeOne" in sel_algos:
+        st.subheader("slopeOne Model:")
+        # We'll use the SlopeOne algorithm.
+        algo = SlopeOne()
+
+        # Run 5-fold cross-validation and print results
+        so_validate =cross_validate(algo, data_model, measures=['RMSE', 'MAE'], cv=5, verbose=True)
+        st.text("cross validation results")
+        st.code(so_validate)
+
+        # Train the algorithm on the trainset, and predict ratings for the testset
+        algo.fit(trainset)
+        predictions = algo.test(testset)
+
+        top_n, users_est, users_true, rec_for_user = top_n_pred(predictions)
+        ndcg_list, ndgc_rate = calc_ndcg(users_true,users_est)
+
+        st.text("")
+        st.metric(label = "slopeOne nDCG", value = str(ndgc_rate)[:4])
+        st.metric(label = "slopeOne Best Accuracy", value = str("78.21%")[:4])
+        st.text("")
+
+        # Let's build a pandas dataframe with all the predictions
+        df = pd.DataFrame(predictions, columns=['uid', 'iid', 'rui', 'est', 'details'])    
+        df['Iu'] = df.uid.apply(get_Iu)
+        df['Ui'] = df.iid.apply(get_Ui)
+        df['err'] = abs(df.est - df.rui)
+
+
+        data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
+        data_triplet.dropna(subset=["uid"],inplace=True)
+        data_triplet.drop("uid", axis=1, inplace = True)
+        data_triplet.rename(columns={"iid":"SlopeOne_recommendation","err":"SlopeOne_error"}, inplace = True)
+        st.subheader("slopeOne model Evaluation with Actual Packages (testset):")
+        st.dataframe(data_triplet)
+        st.text("")
+
+        # SlopeOne predictions for given Users
+        best_predictions = df.query("uid == @users_to_predict") #.sort_values(by='err')[:10]
+        best_predictions.rename(columns={"uid":"User", "iid":"Predicted Recommendation"},inplace = True)
+        st.subheader("slopeOne model Predictions for given users:")
+        st.dataframe(best_predictions)
+        st.text("")
+
+    if "Matrix Factorization" in sel_algos:
+        st.subheader("Matrix Factorization Model")
+        algo = NMF()
+
+        # Run 5-fold cross-validation and print results
+        nmf_validate =cross_validate(algo, data_model, measures=['RMSE', 'MAE'], cv=5, verbose=True)
+        st.text("cross validation results")
+        st.code(nmf_validate)
+
+        # Train the algorithm on the trainset, and predict ratings for the testset
+        algo.fit(trainset)
+        predictions = algo.test(testset)
+
+        top_n, users_est, users_true, rec_for_user = top_n_pred(predictions)
+        ndcg_list, ndgc_rate = calc_ndcg(users_true,users_est)
+
+        st.text("")
+        st.metric(label = "MF model nDCG", value = str(ndgc_rate)[:4])
+        st.metric(label = "MF model Best Accuracy", value = str("79.81%")[:4])
+        st.text("")
+
+
+        # Let's build a pandas dataframe with all the predictions
+        df = pd.DataFrame(predictions, columns=['uid', 'iid', 'rui', 'est', 'details'])    
+        df['Iu'] = df.uid.apply(get_Iu)
+        df['Ui'] = df.iid.apply(get_Ui)
+        df['err'] = abs(df.est - df.rui)
+
+        data_triplet = data_triplet.merge(df[["uid","iid","err"]], left_on="ACCOUNT_NUM.hash", right_on ="uid", how="left")
+        data_triplet.dropna(subset=["uid"],inplace=True)
+        data_triplet.drop("uid", axis=1, inplace = True)
+        data_triplet.rename(columns={"iid":"MF_recommendation","err":"MF_error"}, inplace = True)
+        st.subheader("MF model Evaluation with Actual Packages (testset):")
+        st.dataframe(data_triplet)
+        st.text("")
+
+        best_predictions = df.query("uid == @users_to_predict") #.sort_values(by='err')[:10]
+        best_predictions.rename(columns={"uid":"User", "iid":"Predicted Recommendation"},inplace = True)
+        st.subheader("MF model Predictions for given users:")
+        st.dataframe(best_predictions)
+        st.text("")
+
+
+    st.subheader("Accuracy of Algorithms (RMSE, MAE)")
+
+    fig,ax = plt.subplots(figsize=(13,8))
+    if so_validate:
+        ax.plot(so_validate["test_rmse"], color='blue')
+        ax.plot(so_validate["test_mae"], linestyle='dashdot', color='blue')
+    if svd_validate:
+        ax.plot(svd_validate["test_rmse"], color='green')
+        ax.plot(svd_validate["test_mae"], linestyle='dashdot', color='green')
+    if nmf_validate:
+        ax.plot(nmf_validate["test_rmse"], color='red')
+        ax.plot(nmf_validate["test_mae"], linestyle='dashdot', color='red')
+    # plt.xticks(np.arange(0, 30, 0.5))
+    plt.title("Boradband Packages Recommender", loc="center")
+    # plt.legend(["RMSE: SlopeOne","RMSE: SVD","RMSE: NMF",
+    #         "MAE: SlopeOne","MAE: SVD","MAE: NMF"])
+
+    st.pyplot(fig)
 
 # %%
 
